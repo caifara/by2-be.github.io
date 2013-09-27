@@ -1,0 +1,90 @@
+---
+---
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    %title Basic Company Template for Bootstrap 3
+    / Bootstrap core CSS
+    %link{:href => "css/bootstrap.css", :rel => "stylesheet"}/
+    / Custom CSS for the 'Business Frontpage' Template
+    %link{:href => "css/business-frontpage.css", :rel => "stylesheet"}/
+  %body
+    %nav.navbar.navbar-fixed-top.navbar-default{:role => "navigation"}
+      .container
+        .navbar-header
+          %button.navbar-toggle{"data-target" => ".navbar-ex1-collapse", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand{:href => "index.html"} Start Bootstrap
+        / Collect the nav links, forms, and other content for toggling
+        .collapse.navbar-collapse.navbar-ex1-collapse
+          %ul.nav.navbar-nav
+            %li
+              %a{:href => "#about"} About
+            %li
+              %a{:href => "#services"} Services
+            %li
+              %a{:href => "#contact"} Contact
+        / /.navbar-collapse
+      / /.container
+    .business-header
+      .container
+        .row
+          .col-lg-12
+            / The background image is set in the custom CSS
+            %h1.tagline An Informative Tagline Goes Here
+    .container
+      %hr/
+      .row
+        .col-lg-8.col-sm-8
+          %h2 What We Do
+          %p Here is where you will introduce visitors to the business. Make sure to use clear and informative sentences. Use appropriate keywords here to make sure search engines can find the business.
+          %p When using this template, two decisions will be open to visitors. Decision one will be to use above-the-fold information to interact with the page. Decision two will be to scroll down and see the additional marketing boxes. Either way, the user will get the information they need!
+          %p
+            %a.btn.btn-default.btn-large{:href => "#"} Call to action &raquo;
+        .col-lg-4.col-sm-4
+          %h2 Contact Us
+          %address
+            %strong Twitter, Inc.
+            %br/
+            795 Folsom Ave, Suite 600
+            %br/
+            San Francisco, CA 94107
+            %br/
+          %address
+            %abbr{:title => "Phone"} P:
+            (123) 456-7890
+            %br/
+            %abbr{:title => "Email"} E:
+            %a{:href => "mailto:#"} first.last@example.com
+      %hr/
+      .row
+        .col-sm-4
+          %img.img-circle.img-responsive.text-center{:src => "http://placehold.it/300x300"}/
+          %h2 Marketing Box #1
+          %p These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.
+        .col-sm-4
+          %img.img-circle.img-responsive{:src => "http://placehold.it/300x300"}/
+          %h2 Marketing Box #2
+          %p The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+        .col-sm-4
+          %img.img-circle.img-responsive{:src => "http://placehold.it/300x300"}/
+          %h2 Marketing Box #3
+          %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+      %hr/
+      %footer
+        .row
+          .col-lg-12
+            %p Copyright &copy; Company 2013 &middot; Facebook &middot; Twitter &middot; Google+
+    / /container
+    / Bootstrap core JavaScript
+    / Placed at the end of the document so the pages load faster
+    / Don't forget to add jQuery - download the most recent version at http://jquery.com/
+    %script{:src => "js/jquery.js"}
+    %script{:src => "js/bootstrap.js"}
