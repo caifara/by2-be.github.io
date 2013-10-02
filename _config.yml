@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: by2.be bvba
 markdown: redcarpet
 pygments: true
 exclude: [ Gemfile, Gemfile.lock, readme.md ]

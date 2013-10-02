@@ -1,0 +1,32 @@
+---
+title: Nood aan een duidelijk antwoord?
+subtitle: We helpen je verder met advies, tips of een conctreet voorstel. Of we brengen je in contact met de juiste mensen.
+layout: default
+---
+
+.row
+  .col-md-6
+    %h4 Hoe kunnen we je helpen?
+    %h6.text-muted
+      Gebruik onderstaand formulier of 
+      %a{:href => "mailto:team@by2.be"} e-mail
+      ons. We vinden spam zelf ook vervelend. We bestoken je nadien dus niet met e-mails.
+
+    %form{:role => "form", :action => "http://getsimpleform.com/messages?form_api_token=3c22a62f553217ac178401ed280b3619", :method => "post"}
+      .form-group
+        %input{:type => "text", :name => "naam", :class => "form-control", :placeholder => "naam"}
+
+      .form-group
+        %input{:type => "hidden", :name => "redirect_to", :value => "http://localhost:4000/contact.html#bedankt"}
+        %input{:type => "email", :name => "e-mail", :class => "form-control", :placeholder => "e-mail"}
+
+      .form-group
+        %textarea{:type => "text", :name => "bericht", :class => "form-control", :rows => 5, :placeholder => "bericht"}
+
+      %button{:type => "submit", :class => "btn btn-default"} Bericht versturen
+      %span{:class => "text-success hidden", :id => "thank-you"} Het bericht werd verstuurd. Bedankt!
+
+  .col-md-6
+    %a{:href => "http://goo.gl/maps/uQRyu"}
+      %img.img-responsive{:src => "/img/map.png"}/
+
