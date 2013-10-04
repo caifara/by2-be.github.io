@@ -7,10 +7,11 @@ layout: default
 .row
   .col-md-6
     %h4 Hoe kunnen we je helpen?
-    %h6.text-muted
-      Gebruik onderstaand formulier of 
-      %a{:href => "mailto:team@by2.be"} e-mail
-      ons. We vinden spam zelf ook vervelend. We bestoken je nadien dus niet met e-mails.
+    %p.text-muted
+      %small
+        Gebruik onderstaand formulier of 
+        %a{:href => "mailto:team@by2.be"} e-mail
+        ons. We vinden spam zelf ook vervelend. We bestoken je nadien dus niet met e-mails.
 
     %form{:role => "form", :action => "http://getsimpleform.com/messages?form_api_token=3c22a62f553217ac178401ed280b3619", :method => "post"}
       .form-group
