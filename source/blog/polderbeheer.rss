@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>By2.be - Blog</title>
+    <link>http://www.by2.be/blog</link>
+    <description>Nieuws over by2.be</description>
+    <language>nl</language>
+    <lastBuildDate>Wed, 16 Oct 2013 14:35:31 +0200</lastBuildDate>
+    <item>
+      <title>Polderbeheer 3.0.1 en Laatste aanmaningen</title>
+      <link>http://www.by2.be/blog/2012/08/polderbeheer_3.0.1.html</link>
+      <description>&lt;h1&gt;Kleine Polderbeheer update en een nieuw plan&lt;/h1&gt;
+
+&lt;h2&gt;Opgelost ...&lt;/h2&gt;
+
+&lt;p&gt;Vandaag werd een korte release gedaan waarbij enkele kleine problemen werden opgelost. Je vindt meer info op het &lt;a href=&quot;https://trello.com/board/polderbeheer/4ece098bcb5cfb3f2c0412b1&quot;&gt;projectbord&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Laatste aanmaningen&lt;/h2&gt;
+
+&lt;p&gt;Het idee rond laatste aanmaningen krijgt ondertussen wellicht een bijna definitieve vorm. Het plan hiervoor kun je bekijken in het &lt;a href=&quot;https://trello.com/card/2de-herinnering/4ece098bcb5cfb3f2c0412b1/1&quot;&gt;ticket&lt;/a&gt; op het projectbord. Laat bij onduidelijkheid gerust iets weten.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2012/08/polderbeheer_3.0.1.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Wed, 22 Aug 2012 22:00:40 +0200</pubDate>
+      <dc:date>2012-08-22T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Polderbeheer 3.0</title>
+      <link>http://www.by2.be/blog/2012/08/polderbeheer_3_0.html</link>
+      <description>&lt;h1&gt;Polderbeheer 3.0&lt;/h1&gt;
+
+&lt;p&gt;Vandaag staat de nieuwe versie van Polderbeheer online. Deze nieuwe versie
+bevat enkele optimalisaties die van polders en wateringen de
+meeste stemmen kregen. Hieronder volgt een samvenvatting van de belangrijkste nieuwe
+mogelijkheden.&lt;/p&gt;
+
+&lt;h2&gt;Lijst van fiches met opmerkingen&lt;/h2&gt;
+
+&lt;p&gt;Klik op &quot;Lijsten&quot; en klik op &quot;Fiches met opmerkingen&quot;. Je krijgt een
+lijst van alle fiches met opmerkingen binnen het werkjaar. Klik op een
+eignaar om vervolgens de volledige fiche te bekijken.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/6851292439/&quot;
+title=&quot;Lijst fiches met opmerkingen by by2.be, on Flickr&quot;&gt;&lt;img
+src=&quot;http://farm8.staticflickr.com/7044/6851292439_755c21d709.jpg&quot;
+width=&quot;500&quot; height=&quot;281&quot; alt=&quot;Lijst fiches met opmerkingen&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Lijst met hoofdeigenaars&lt;/h2&gt;
+
+&lt;p&gt;Het nummer van de pagina die actief is wordt in een rode kleur
+weergegeven. Zo zie je welke pagina je precies aan het raadplegen bent.&lt;/p&gt;
+
+&lt;h2&gt;Stap terug na genereren kohier&lt;/h2&gt;
+
+&lt;p&gt;Na het genereren van het kohier kun je deze stap ongedaan maken.&lt;/p&gt;
+
+&lt;p&gt;Let op:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;bij het ongedaan maken worden alle aanvankelijke schulden en de
+ordenummers op de fiches verwijderd.&lt;/li&gt;
+&lt;li&gt;na het ongedaan maken kun je opnieuw een kohier aanmaken maar ook
+hier gaat er een nacht over.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7686322768/&quot;
+title=&quot;Kohier ongedaan maken by by2.be, on Flickr&quot;&gt;&lt;img
+src=&quot;http://farm8.staticflickr.com/7116/7686322768_ccf8478cf8.jpg&quot;
+width=&quot;500&quot; height=&quot;46&quot; alt=&quot;Kohier ongedaan maken&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Afdrukken fiche naar pdf&lt;/h2&gt;
+
+&lt;p&gt;Bij het afdrukken van een fiche (bewaren in pdf) staat het totaal
+opp en totaal belastbaar opp onderaan geprint.&lt;/p&gt;
+
+&lt;h2&gt;Vooruitblik naar de volgende release&lt;/h2&gt;
+
+&lt;p&gt;Naast deze kleinere optimalisaties zullen we dit jaar nog een compleet
+nieuwe feature ontwikkelen die het mogelijk maakt om meerdere
+herinneringsbrieven op te maken. Meer informatie daarover volgt hier
+later.
+Als gebruiker van Polderbeheer kun je vanzelfsprekend nog steeds op je
+favoriete mogelijkheden stemmen op het projectbord.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2012/08/polderbeheer_3_0.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Tue, 14 Aug 2012 22:00:40 +0200</pubDate>
+      <dc:date>2012-08-14T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Fusies van Polders</title>
+      <link>http://www.by2.be/blog/2011/03/oostkustpolder.html</link>
+      <description>&lt;h1&gt;Stemgerechtigden van de Oostkustpolder&lt;/h1&gt;
+
+&lt;p&gt;by2.be maakte de lijst van stemgerechtigen voor de Oostkustpolder. Eerder deden we dit al voor de fusies van de Middenkustpolder, Schelde Durne Oost en Scheldeschorren-Noord.
+Omdat ons bedrijf gespecialiseerd is in de polderwetgeving en alle technologie in huis heeft om fusies voor te bereiden, zijn we voor de betrokken provincies en polders een belangrijke partner geworden.&lt;/p&gt;
+
+&lt;h2&gt;Oostkustpolder&lt;/h2&gt;
+
+&lt;p&gt;Eind 2010 werd door Vlaams minister van Leefmilieu Joke Schauvliege beslist dat de Zwin-Polder, de Nieuwe Hazegraspolder, de Damse polder en de polder Sint-Trudoledeken zouden worden samengevoegd tot één polder van ongeveer 21.000 ha groot: de &lt;a href=&quot;http://www.zwinpolder.be/page/index/3&quot;&gt;Oostkustpolder&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Na zo'n beslissing moet eerst een algemene vergadering worden samengeroepen. Het kadaster kan op dat moment nog geen data leveren over deze nieuwe polder. Dat kan pas bij het innen van de eerste belastingen, ongeveer een jaar later.&lt;/p&gt;
+
+&lt;h2&gt;by2.be&lt;/h2&gt;
+
+&lt;p&gt;Onze ervaring met de polderwet is gegroeid vanuit een project dat werd opgestart in samenwerking met de Zwin-Polder een aantal jaar geleden. Daarin hebben we software ontwikkeld waarbij de polderbelasting wordt berekend op de jaarlijkse vernieuwde gegevens van het kadaster. De wijzigingen van de polder worden daar op een ingenieuze manier aan toegevoegd.&lt;/p&gt;
+
+&lt;p&gt;De combinatie van deze ervaringen en de technologie die we ontwikkelden, stellen ons in staat de fusies die de laatste jaren doorgaan te begeleiden.&lt;/p&gt;
+
+&lt;h2&gt;Gebruik maken van onze ervaring?&lt;/h2&gt;
+
+&lt;p&gt;Wil je graag met je Polder ook werk besparen door de gegevens van het kadaster ieder jaar accuraat te houden waardoor je deze gegevens niet zelf meer moet invoeren? Contacteer ons vrijblijvend.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2011/03/oostkustpolder.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 14 Mar 2011 21:00:40 +0100</pubDate>
+      <dc:date>2011-03-14T21:00:40+01:00</dc:date>
+    </item>
+    <item>
+      <title>Polderbeheer 2.0</title>
+      <link>http://www.by2.be/blog/2010/10/polderbeheer_2_0.html</link>
+      <description>&lt;p&gt;Deze zomer hebben we hard gewerkt aan een vernieuwde versie van Polderbeheer, ons programma voor polders en wateringen dat het merendeel van de administratie automatiseert.&lt;/p&gt;
+
+&lt;p&gt;Naast het verbeteren van heel wat functies zijn er enkele nieuwe mogelijkheden. De opvallendste is het automatiseren van het versturen van aanslagbiljetten. Daarvoor zijn we in zee gegaan met een nieuwe partner: &lt;a href=&quot;http://www.goekint.be&quot;&gt;Goekint Graphics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Deze nieuwe service biedt de polders de mogelijkheid het afdrukken, vouwen en/of verzenden van aanslagbiljetten en herinneringsbrieven op een goedkope manier te automatiseren. Het verzenden gebeurt met een mail-ID (barcode) waardoor we dit aan een erg interessante prijs kunnen doen.&lt;/p&gt;
+
+&lt;p&gt;Polders en wateringen die het systeem eens in werking willen zien, zijn altijd welkom. Geef ons een seintje via e-mail of telefoon.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/10/polderbeheer_2_0.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Fri, 01 Oct 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-10-01T23:00:40+02:00</dc:date>
+    </item>
+  </channel>
+</rss>

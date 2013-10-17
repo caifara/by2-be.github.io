@@ -45,6 +45,18 @@
 #   end
 # end
 
+class HtmlFiles < Middleman::Extension
+  def initialize(app, options_hash={}, &block)
+    super
+    app.after_build do |builder|
+      puts "----------------------------"
+      system "rm -R tmp/blog"
+      puts (system "cp -R source/blog tmp/blog")
+    end
+  end
+end
+::Middleman::Extensions.register(:html_files, HtmlFiles)
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
@@ -52,6 +64,8 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 activate :directory_indexes
 set :build_dir, "tmp"
+
+activate :html_files
 
 # Build-specific configuration
 configure :build do

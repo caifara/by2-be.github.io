@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>By2.be - Blog</title>
+    <link>http://www.by2.be/blog</link>
+    <description>Nieuws over by2.be</description>
+    <language>nl</language>
+    <lastBuildDate>Wed, 16 Oct 2013 14:35:30 +0200</lastBuildDate>
+    <item>
+      <title>Herinner je patiënt aan de afspraak</title>
+      <link>http://www.by2.be/blog/2013/08/persoonlijker_smsen.html</link>
+      <description>&lt;h1&gt;Persoonlijker sms'en&lt;/h1&gt;
+
+&lt;p&gt;Het sms'en naar patiënten kan vanaf nu een stuk persoonlijker. Voorheen werd er een standaard bericht verstuurd om de patiënt te herinneren aan een afspraak. Vanaf nu is het mogelijk om de inhoud van het bericht zelf te kiezen. Indien gewenst kun je variabele gegevens (zoals naam en datum) verwerken in het bericht.&lt;/p&gt;
+
+&lt;p&gt;Voorbeeld:&lt;/p&gt;
+
+&lt;p&gt;Beste %naam%, op %datum% heeft u een afspraak met uw osteopaat. Groeten, Jan&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/9569832625/&quot; title=&quot;Persoonlijk sms'en by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5329/9569832625_bd9517a828.jpg&quot; width=&quot;500&quot; height=&quot;170&quot; alt=&quot;Persoonlijk sms'en&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2013/08/persoonlijker_smsen.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Fri, 30 Aug 2013 22:00:40 +0200</pubDate>
+      <dc:date>2013-08-30T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch op tablets</title>
+      <link>http://www.by2.be/blog/2013/08/finaltouch_op_tablets.html</link>
+      <description>&lt;h1&gt;Finaltouch mobieler&lt;/h1&gt;
+
+&lt;p&gt;Het gebruik van tablets is de laatste jaren enorm toegenomen. Ook bij onze gebruikers zien we een gelijkaardige stijging. De tablet biedt in een aantal situaties voordelen t.o.v. een pc of laptop.&lt;/p&gt;
+
+&lt;p&gt;Daarom hebben Finaltouch geoptimaliseerd voor tablets. De gebruikservaring is daardoor een stuk verbeterd.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/smemon/7469170810/&quot; title=&quot;ipad by Sean MacEntee, on Flickr&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8146/7469170810_e51b69b7d8.jpg&quot; width=&quot;500&quot; height=&quot;167&quot; alt=&quot;ipad&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2013/08/finaltouch_op_tablets.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 26 Aug 2013 22:00:40 +0200</pubDate>
+      <dc:date>2013-08-26T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Patiëntengegevens exporteren</title>
+      <link>http://www.by2.be/blog/2013/08/meer_doen_met_patientendossiers.html</link>
+      <description>&lt;h1&gt;Meer doen met patiëntengegevens&lt;/h1&gt;
+
+&lt;p&gt;Wil je je eigen database met patiënten gebruiken voor bijvoorbeeld briefwisseling? Dan zal deze nieuwe functie een grote meerwaarde zijn. Je kunt ermee je volledige lijst van patiënten met de persoonlijke gegevens downloaden in Excel. Het voordeel van dit formaat is dat het in veel gevallen te koppelen of te importeren is in andere systemen zoals Word (om brieven te koppelen) of Numbers (indien je met een Mac werkt).&lt;/p&gt;
+
+&lt;p&gt;Het exporteren kan door te klikken op &quot;exporteer&quot; bij &quot;dossiers&quot; in de agenda.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/9569827487/&quot; title=&quot;Patiënten exporteren by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5450/9569827487_4cc5e72871.jpg&quot; width=&quot;500&quot; height=&quot;191&quot; alt=&quot;Patiënten exporteren&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2013/08/meer_doen_met_patientendossiers.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 19 Aug 2013 22:00:40 +0200</pubDate>
+      <dc:date>2013-08-19T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Inloggen zonder paswoord</title>
+      <link>http://www.by2.be/blog/2012/08/inloggen_zonder_paswoord.html</link>
+      <description>&lt;h1&gt;Inloggen zonder paswoord&lt;/h1&gt;
+
+&lt;p&gt;Niet altijd is het nodig dat gebruikers over een paswoord beschikken om in een gepersonaliseerde omgeving te werken. We overlopen een oplossing die we recent voor een klant ontwikkelden.&lt;/p&gt;
+
+&lt;h2&gt;Situatie&lt;/h2&gt;
+
+&lt;p&gt;Veel webapplicaties vergen dat de gebruiker inlogt met een eigen paswoord. Logisch natuurlijk, want als gebruiker wil je niet dat een derde wijzigingen kan aanbrengen of handelingen kan uitvoeren in jouw naam.&lt;/p&gt;
+
+&lt;h2&gt;Het probleem&lt;/h2&gt;
+
+&lt;p&gt;Met de beweging van desktop applicaties naar web-gebaseerde toepassingen is de hoeveelheid paswoorden die je als gebruiker nodig hebt geëxplodeerd. Paswoordmanagers en inloggen via bepaalde services als Facebook, Google en Twitter lossen een deel van dit probleem op, maar kennen ook elk hun nadelen.&lt;/p&gt;
+
+&lt;h2&gt;Onze oplossing&lt;/h2&gt;
+
+&lt;p&gt;Voor een klant ontwierpen we een oplossing waarbij vele gebruikers die slechts eenmalig in een applicatie een aantal handelingen moesten uitvoeren (in dit geval leerlingen die een boekenlijst moeten invullen).&lt;/p&gt;
+
+&lt;p&gt;De gebruikers ontvangen een e-mail met daarin een gepersonaliseerde veilige link zoals:&lt;/p&gt;
+
+&lt;p&gt;boekenfonds.school.be/leerlingen/b6e72be89c731f42be9dfd724b37312355a9f9ca&lt;/p&gt;
+
+&lt;p&gt;Het laatste gedeelte (b6e72be89c731f42be9dfd724b37312355a9f9ca) is een stukje tekst dat een gebruiker identificeert. Als je denkt dat dit niet veilig is, volg dan even volgende berekening mee:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/3525993.js?file=hash_mogelijkheden.rb&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href='/blog/2012/08/inloggen_zonder_paswoord.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Sep 2012 22:00:40 +0200</pubDate>
+      <dc:date>2012-09-05T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Polderbeheer 3.0.1 en Laatste aanmaningen</title>
+      <link>http://www.by2.be/blog/2012/08/polderbeheer_3.0.1.html</link>
+      <description>&lt;h1&gt;Kleine Polderbeheer update en een nieuw plan&lt;/h1&gt;
+
+&lt;h2&gt;Opgelost ...&lt;/h2&gt;
+
+&lt;p&gt;Vandaag werd een korte release gedaan waarbij enkele kleine problemen werden opgelost. Je vindt meer info op het &lt;a href=&quot;https://trello.com/board/polderbeheer/4ece098bcb5cfb3f2c0412b1&quot;&gt;projectbord&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Laatste aanmaningen&lt;/h2&gt;
+
+&lt;p&gt;Het idee rond laatste aanmaningen krijgt ondertussen wellicht een bijna definitieve vorm. Het plan hiervoor kun je bekijken in het &lt;a href=&quot;https://trello.com/card/2de-herinnering/4ece098bcb5cfb3f2c0412b1/1&quot;&gt;ticket&lt;/a&gt; op het projectbord. Laat bij onduidelijkheid gerust iets weten.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2012/08/polderbeheer_3.0.1.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Wed, 22 Aug 2012 22:00:40 +0200</pubDate>
+      <dc:date>2012-08-22T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Groepspraktijken in Finaltouch</title>
+      <link>http://www.by2.be/blog/2012/08/groepspraktijk_finaltouch.html</link>
+      <description>&lt;p&gt;In Finaltouch kun je groepspraktijken aanmaken. De osteopaat die ze aanmaakt (beheerder) kan vervolgens collega's uitnodigen. Daarna kun je dossiers en agenda's delen. Hieronder wat meer uitleg met schermafdrukken:&lt;/p&gt;
+
+&lt;p&gt;1 Laat je collega een eigen account aanmaken: https://finaltouch.by2.be/signup&lt;/p&gt;
+
+&lt;p&gt;2 maak een nieuwe groepspraktijk aan.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7822186710/&quot;
+title=&quot;Groepspraktijk aanmaken by by2.be, on Flickr&quot;&gt;&lt;img
+src=&quot;http://farm9.staticflickr.com/8436/7822186710_1d6ea4e43c.jpg&quot;
+width=&quot;500&quot; height=&quot;170&quot; alt=&quot;Groepspraktijk aanmaken&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3 Voeg je collega toe aan de groepspraktijk. Vul het e-mailadres in waarmee hij een account aangemaakt heeft.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7822186962/&quot;
+title=&quot;Collega uitnodigen by by2.be, on Flickr&quot;&gt;&lt;img
+src=&quot;http://farm9.staticflickr.com/8284/7822186962_f902183ba8.jpg&quot;
+width=&quot;500&quot; height=&quot;247&quot; alt=&quot;Collega uitnodigen&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;4 Je collega krijgt een e-mail en moet de uitnodiging accepteren. Indien hij/zij de e-mail niet ontvangt dan kijk je best eens bij de spam.&lt;/p&gt;
+
+&lt;p&gt;Nog enkele opmerkingen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In de agenda kun je kiezen tussen je eigen agenda of die van de
+groepspraktijk&lt;/li&gt;
+&lt;li&gt;In het dossier kun je nu je patiënt delen met de groepspraktijk&lt;/li&gt;
+&lt;li&gt;Je kan delen van je agenda afschermen (onzichtbaar maken) voor de
+leden in de groepspraktijk (zie voorkeuren: &quot;mijn werkuren bepalen in deze groepspraktijk&quot;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href='/blog/2012/08/groepspraktijk_finaltouch.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 20 Aug 2012 22:06:40 +0200</pubDate>
+      <dc:date>2012-08-20T22:06:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Polderbeheer 3.0</title>
+      <link>http://www.by2.be/blog/2012/08/polderbeheer_3_0.html</link>
+      <description>&lt;h1&gt;Polderbeheer 3.0&lt;/h1&gt;
+
+&lt;p&gt;Vandaag staat de nieuwe versie van Polderbeheer online. Deze nieuwe versie
+bevat enkele optimalisaties die van polders en wateringen de
+meeste stemmen kregen. Hieronder volgt een samvenvatting van de belangrijkste nieuwe
+mogelijkheden.&lt;/p&gt;
+
+&lt;h2&gt;Lijst van fiches met opmerkingen&lt;/h2&gt;
+
+&lt;p&gt;Klik op &quot;Lijsten&quot; en klik op &quot;Fiches met opmerkingen&quot;. Je krijgt een
+lijst van alle fiches met opmerkingen binnen het werkjaar. Klik op een
+eignaar om vervolgens de volledige fiche te bekijken.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/6851292439/&quot;
+title=&quot;Lijst fiches met opmerkingen by by2.be, on Flickr&quot;&gt;&lt;img
+src=&quot;http://farm8.staticflickr.com/7044/6851292439_755c21d709.jpg&quot;
+width=&quot;500&quot; height=&quot;281&quot; alt=&quot;Lijst fiches met opmerkingen&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Lijst met hoofdeigenaars&lt;/h2&gt;
+
+&lt;p&gt;Het nummer van de pagina die actief is wordt in een rode kleur
+weergegeven. Zo zie je welke pagina je precies aan het raadplegen bent.&lt;/p&gt;
+
+&lt;h2&gt;Stap terug na genereren kohier&lt;/h2&gt;
+
+&lt;p&gt;Na het genereren van het kohier kun je deze stap ongedaan maken.&lt;/p&gt;
+
+&lt;p&gt;Let op:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;bij het ongedaan maken worden alle aanvankelijke schulden en de
+ordenummers op de fiches verwijderd.&lt;/li&gt;
+&lt;li&gt;na het ongedaan maken kun je opnieuw een kohier aanmaken maar ook
+hier gaat er een nacht over.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7686322768/&quot;
+title=&quot;Kohier ongedaan maken by by2.be, on Flickr&quot;&gt;&lt;img
+src=&quot;http://farm8.staticflickr.com/7116/7686322768_ccf8478cf8.jpg&quot;
+width=&quot;500&quot; height=&quot;46&quot; alt=&quot;Kohier ongedaan maken&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Afdrukken fiche naar pdf&lt;/h2&gt;
+
+&lt;p&gt;Bij het afdrukken van een fiche (bewaren in pdf) staat het totaal
+opp en totaal belastbaar opp onderaan geprint.&lt;/p&gt;
+
+&lt;h2&gt;Vooruitblik naar de volgende release&lt;/h2&gt;
+
+&lt;p&gt;Naast deze kleinere optimalisaties zullen we dit jaar nog een compleet
+nieuwe feature ontwikkelen die het mogelijk maakt om meerdere
+herinneringsbrieven op te maken. Meer informatie daarover volgt hier
+later.
+Als gebruiker van Polderbeheer kun je vanzelfsprekend nog steeds op je
+favoriete mogelijkheden stemmen op het projectbord.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2012/08/polderbeheer_3_0.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Tue, 14 Aug 2012 22:00:40 +0200</pubDate>
+      <dc:date>2012-08-14T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>KSA Hemen vernieuwt</title>
+      <link>http://www.by2.be/blog/2012/05/ksa_noordzeegouw.html</link>
+      <description>&lt;h1&gt;KSA Hemen krijgen nieuwe website en administratiemodule&lt;/h1&gt;
+
+&lt;p&gt;KSA Noordzeegouw vernieuwde met by2.be haar hemenadministratie en &lt;a href=&quot;http://www.ksahemen.be&quot; title=&quot;Website KSA hemen&quot;&gt;website&lt;/a&gt;.
+De website heeft een frisse look en is de nieuwe thuis voor alles wat betreft de hemen van KSA Noordzeegouw in Westouter. De administratie van de hemen verhuist zo van een oud MS-DOS systeem naar een modern Web 2.0 systeem &quot;in the cloud&quot;. Wat dit voor de hemenadministratie betekent leg ik meteen uit.&lt;/p&gt;
+
+&lt;h2&gt;De website&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7195657732/&quot; title=&quot;website KSA Hemen by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7240/7195657732_b2c828eb02.jpg&quot; width=&quot;500&quot; height=&quot;472&quot; alt=&quot;website KSA Hemen&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;De website is een perfect voorbeeld van onze aanpak voor het maken van websites. Op basis van de specifieke vraag van KSA Monsalvaet gingen we op zoek naar een speels design dat toch eenvoud van zicht en van navigatie hoog in het vaandel voert. Over het &lt;a href=&quot;http://www.ksahemen.be&quot; title=&quot;Website KSA hemen&quot;&gt;resultaat&lt;/a&gt; kun je zelf oordelen.&lt;/p&gt;
+
+&lt;p&gt;Naast de website als visueel aantrekkelijke trekpleister besteedden we ook aandacht aan het technische. De website is zonder onze tussenkomst eenvoudig aanpasbaar en inhoud zoals prentjes werd dicht beschikbaar gesteld met behulp van een distributed content delivery oplossing. Hierdoor kunnen de grote foto's op de voorpagina toch behoorlijk snel getoond worden.&lt;/p&gt;
+
+&lt;h2&gt;De administratiemodule&lt;/h2&gt;
+
+&lt;p&gt;Ondanks een beperkt budget dient de administratiemodule toch vele doelen. Creativiteit en sterk doorpraten om overbodige balast en kosten te vermijden brachten ons tot een handig, betaalbaar en toch volledig eindproduct.&lt;/p&gt;
+
+&lt;p&gt;Ik geef nog snel een overzicht van enkele verwezenlijkingen in dit product.&lt;/p&gt;
+
+&lt;h3&gt;Eenvoud: een reservatie is een dossier&lt;/h3&gt;
+
+&lt;p&gt;In plaats van tal van nieuwe venstertjes te gebruiken om bijvoorbeeld een reservatie te maken (organisatie, contactpersoon, facturatiegegevens, reservaties voor de verschillende hemen, ...) hebben we gekozen om dit zo dicht mogelijk bij de echte wereld te brengen. En de echte wereld? Dat is een document. Reserveren deden we vroeger op papier en wat een overzicht kun je daarmee behouden!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7171085662/&quot; title=&quot;KSA overlapping by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7231/7171085662_d0b9589c80.jpg&quot; width=&quot;470&quot; height=&quot;500&quot; alt=&quot;KSA overlapping&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Eenmaal de reservatie gemaakt is volgen de volgende stappen in hetzelfde dossier waardoor steeds een volledige geschiedenis en overzicht zichtbaar blijft.&lt;/p&gt;
+
+&lt;h3&gt;Slim besparen: Nieuwe reservatie vanaf bestaande reservatie&lt;/h3&gt;
+
+&lt;p&gt;Een van de plaatsen waar veel tijd kon worden gewonnen is het ingeven van de gegevens van contactpersonen, organisatie enz. bij het maken van een nieuwe reservatie. Traditioneel zou dit kunnen gebeuren met behulp van een auto-aanvulveld. Dit is een veld waarin - na het tikken van enkele karakters - de mogelijke namen komen. Eens je selecteert worden de resterende velden ingevuld. Zo zou je bijvoorbeeld bij het intikken van een stuk van de naam van de organisatie alle gegevens van de organisatie ingevuld zien. Handig!&lt;/p&gt;
+
+&lt;p&gt;Dat hebben we niet gedaan. Dit werk zou wat meer gekost hebben dan onze eindoplossing en daarbij zou dit hier voor de organisatie en voor de contactpersoon gedaan moeten worden.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7171085334/&quot; title=&quot;KSA filteren by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8007/7171085334_eff173f39f.jpg&quot; width=&quot;500&quot; height=&quot;204&quot; alt=&quot;KSA filteren&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We kozen ervoor om in het overzicht waar je op krachtige manieren kan filteren op organisatie, contactpersoon, enzovoort snel een nieuwe reservatie kan aanmaken met dezelfde gegevens. Aan de aanpak zijn naast de prijs nog voordelen verbonden. Meteen worden alle gegevens ingevuld (organisatie, contactpersoon, facturatiegegevens) in plaats van ze een voor een aan te vullen. Daarnaast maken we gebruik van de zoekfunctie die sowieso veel gebruikt wordt. Hierdoor valt er ook voor de administratie minder te leren.&lt;/p&gt;
+
+&lt;h3&gt;Minder administratie: back-ups, automatische handelingen&lt;/h3&gt;
+
+&lt;p&gt;Als laatste wil ik een aantal kleine voordelen vermelden.&lt;/p&gt;
+
+&lt;p&gt;De DOS-versie draaide op welgeteld één computer. Eén van de redenen om met ons in zee te gaan was de vrees dat die ene computer het op een dag zou laten afweten. Onze web-oplossingen houden steeds back-ups in waardoor verlies van data niet meer is dan een geest uit het verleden.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7171085938/&quot; title=&quot;KSA documenten by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7079/7171085938_29f4974ff5.jpg&quot; width=&quot;500&quot; height=&quot;471&quot; alt=&quot;KSA documenten&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Een ander voordeel is de mogelijkheid van het programma om een aantal zaken geautomatiseerd te doen. Een aantal documenten moesten vroeger per post worden opgestuurd. Niet alleen betekent dit een kost (de post en werkuren), het betekent ook een fikse vertraging. Door deze documenten automatisch per e-mail te versturen kunnen we dus een mooie besparing verwezenlijken.&lt;/p&gt;
+
+&lt;p&gt;De persoon die de administratie verzorgt werkt geen volledige dagen op kantoor. De totale beschikbaarheid van een online applicatie speelt dus handig in op de noden van deze administratie.&lt;/p&gt;
+
+&lt;p&gt;Ik kan nog wel even verder gaan, maar de blog is al meer dan lang genoeg. Contacteer ons gerust indien je de noden die we oplosten herkent of indien je ook van deze applicatie zou kunnen gebruik maken! We spreken dan eens af om te ontdekken wat de mogelijkheden zijn.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2012/05/ksa_noordzeegouw.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 14 May 2012 22:00:40 +0200</pubDate>
+      <dc:date>2012-05-14T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Sms-oplossing Vlabus</title>
+      <link>http://www.by2.be/blog/2011/09/vlabus.html</link>
+      <description>&lt;h1&gt;Sms-oplossing voor Vlabus&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/6185212897/&quot; title=&quot;Vlabus sms-systeem by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm7.static.flickr.com/6165/6185212897_9323c3003a.jpg&quot; width=&quot;500&quot; height=&quot;409&quot; alt=&quot;Vlabus sms-systeem&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voor &lt;a href=&quot;http://www.vlabus.be&quot;&gt;Vlabus&lt;/a&gt; maakten we een oplossing op maat om snel een grote groep
+instructeurs te bereiken en met hen af te spreken. Hiervoor maakten
+we onder andere filters op afstand en specialtiteit en zorgden we voor
+de integratie van een sms-systeem.&lt;/p&gt;
+
+&lt;h2&gt;Wat is Vlabus&lt;/h2&gt;
+
+&lt;p&gt;Vlabus staat voor 'Vlaams Bureau voor Sportbegeleiding'. Vlabus ontstond
+vanuit een samenwerking tussen de provincies en het ministerie voor
+Tewerkstelling en Arbeid. Hoofddoel is het creëren van officiële
+tewerkstelling in het sportverenigingsleven in Vlaanderen.&lt;/p&gt;
+
+&lt;p&gt;Op die manier is Vlabus dan ook de werkgever voor sportlesgevers
+in heel Vlaanderen.&lt;/p&gt;
+
+&lt;p&gt;[bron: Vlabus]&lt;/p&gt;
+
+&lt;h2&gt;De nood&lt;/h2&gt;
+
+&lt;p&gt;Een geschikte instructeur voor een opdracht is iemand die naast de
+juiste specialiteit ook liefst dicht in de buurt woont van de locatie
+van de opdracht.&lt;/p&gt;
+
+&lt;p&gt;Het selecteren van die instructeurs gebeurde vroeger manueel, het
+contacteren via een handmatige sms.&lt;/p&gt;
+
+&lt;h2&gt;Ons werk&lt;/h2&gt;
+
+&lt;p&gt;Ons systeem automatiseert deze handeling met een webapplicatie.
+Selecteren doe je op basis van afstand ten opzichte van bijvoorbeeld een
+stad, sturen doe je in één keer. Eénmaal intikken, 100 maal versturen dus.
+Al bij al kun je met het systeem in minder dan een minuut de juiste
+mensen selecteren en hen een berichtje sturen.&lt;/p&gt;
+
+&lt;p&gt;Daarnaast maken we het mogelijk de reacties op de sms'en in de
+applicatie te zien en bieden we een handige antwoord-optie indien verder
+moet worden afgesproken.&lt;/p&gt;
+
+&lt;p&gt;Niet alleen is dit veel handiger voor de werknemers bij Vlabus, het
+stuurt ook altijd naar de juiste mensen en er wordt niemand vergeten.&lt;/p&gt;
+
+&lt;p&gt;Wil je zelf iets doen met sms'en of zoek je een partner om een andere
+oplossing op maat te maken, contacteer ons via bovenstaande
+contactmogelijkheden.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2011/09/vlabus.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 26 Sep 2011 22:00:40 +0200</pubDate>
+      <dc:date>2011-09-26T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Fusies van Polders</title>
+      <link>http://www.by2.be/blog/2011/03/oostkustpolder.html</link>
+      <description>&lt;h1&gt;Stemgerechtigden van de Oostkustpolder&lt;/h1&gt;
+
+&lt;p&gt;by2.be maakte de lijst van stemgerechtigen voor de Oostkustpolder. Eerder deden we dit al voor de fusies van de Middenkustpolder, Schelde Durne Oost en Scheldeschorren-Noord.
+Omdat ons bedrijf gespecialiseerd is in de polderwetgeving en alle technologie in huis heeft om fusies voor te bereiden, zijn we voor de betrokken provincies en polders een belangrijke partner geworden.&lt;/p&gt;
+
+&lt;h2&gt;Oostkustpolder&lt;/h2&gt;
+
+&lt;p&gt;Eind 2010 werd door Vlaams minister van Leefmilieu Joke Schauvliege beslist dat de Zwin-Polder, de Nieuwe Hazegraspolder, de Damse polder en de polder Sint-Trudoledeken zouden worden samengevoegd tot één polder van ongeveer 21.000 ha groot: de &lt;a href=&quot;http://www.zwinpolder.be/page/index/3&quot;&gt;Oostkustpolder&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Na zo'n beslissing moet eerst een algemene vergadering worden samengeroepen. Het kadaster kan op dat moment nog geen data leveren over deze nieuwe polder. Dat kan pas bij het innen van de eerste belastingen, ongeveer een jaar later.&lt;/p&gt;
+
+&lt;h2&gt;by2.be&lt;/h2&gt;
+
+&lt;p&gt;Onze ervaring met de polderwet is gegroeid vanuit een project dat werd opgestart in samenwerking met de Zwin-Polder een aantal jaar geleden. Daarin hebben we software ontwikkeld waarbij de polderbelasting wordt berekend op de jaarlijkse vernieuwde gegevens van het kadaster. De wijzigingen van de polder worden daar op een ingenieuze manier aan toegevoegd.&lt;/p&gt;
+
+&lt;p&gt;De combinatie van deze ervaringen en de technologie die we ontwikkelden, stellen ons in staat de fusies die de laatste jaren doorgaan te begeleiden.&lt;/p&gt;
+
+&lt;h2&gt;Gebruik maken van onze ervaring?&lt;/h2&gt;
+
+&lt;p&gt;Wil je graag met je Polder ook werk besparen door de gegevens van het kadaster ieder jaar accuraat te houden waardoor je deze gegevens niet zelf meer moet invoeren? Contacteer ons vrijblijvend.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2011/03/oostkustpolder.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 14 Mar 2011 21:00:40 +0100</pubDate>
+      <dc:date>2011-03-14T21:00:40+01:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch: latest and greatest</title>
+      <link>http://www.by2.be/blog/2011/01/finaltouch_latest_and_greatest.html</link>
+      <description>&lt;h1&gt;Herinnering voor een nieuwe afspraak&lt;/h1&gt;
+
+&lt;p&gt;Vandaag kondigen we opnieuw een update aan. De belangrijkste aanpassing is de aanwezigheid van een nieuwe interessante functie.&lt;/p&gt;
+
+&lt;p&gt;Vanaf nu is het mogelijk om je patiënten een herinnering te sturen na verloop van een bepaalde, zelfgekozen tijd. Als je patiënt op consultatie is, kun je samen afspreken dat je na bijvoorbeeld 4 maanden een seintje geeft dat het misschien een goed moment is om een nieuwe afspraak te maken.&lt;/p&gt;
+
+&lt;p&gt;Op die manier bind je je klant beter aan jou en je praktijk en bied je een behulpzame service die patiënten zeer aangenaam vinden. Temeer natuurlijk dat je de kans sterk verhoogt dat die persoon een afspraak maakt en je zo je inkomsten de hoogte in stuwt.&lt;/p&gt;
+
+&lt;p&gt;We geven nog even kort mee hoe je ermee werkt. Je kunt zo'n herinnering instellen tijdens de consultatie van een patiënt onder de blok voor de nieuwe behandeling.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/5384943580/&quot; title=&quot;Schermafbeelding 2011-01-24 om 17.22.38 by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.static.flickr.com/5212/5384943580_bd459ed144.jpg&quot; width=&quot;268&quot; height=&quot;416&quot; alt=&quot;Schermafbeelding 2011-01-24 om 17.22.38&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Na het instellen ziet die onderste blok er zo uit:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/5384943652/&quot; title=&quot;Schermafbeelding 2011-01-24 om 17.22.21 by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.static.flickr.com/5216/5384943652_d9fae8d344.jpg&quot; width=&quot;273&quot; height=&quot;406&quot; alt=&quot;Schermafbeelding 2011-01-24 om 17.22.21&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vergeet ook niet de e-mail zelf in te stellen in de voorkeuren!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/5384339463/&quot; title=&quot;Schermafbeelding 2011-01-24 om 16.30.41 by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.static.flickr.com/5213/5384339463_d71f257586.jpg&quot; width=&quot;500&quot; height=&quot;428&quot; alt=&quot;Schermafbeelding 2011-01-24 om 16.30.41&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Naast deze belangrijke nieuwe mogelijkheid zijn er nog enkele fouten opgelost. De verbeteringen waarmee je misschien in contact bent gekomen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;het einde van een herhalende afspraak wordt bij bewerken correct getoond,&lt;/li&gt;
+&lt;li&gt;inloggegevens worden correct onthouden op de mobiele applicatie.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;We hopen dat jullie deze update met nieuwe mogelijkheid kunnen smaken! Spread the word! (O ja, hebben we vermeld dat je deze update er gratis bij krijgt? Gebruiken maar!)&lt;/p&gt;
+
+&lt;p&gt;Deze update kwam tot stand met de steun van Tom Meyers (&lt;a href=&quot;http://www.biomotions.com&quot;&gt;www.biomotions.com&lt;/a&gt;), waarvoor dank.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2011/01/finaltouch_latest_and_greatest.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 24 Jan 2011 21:06:40 +0100</pubDate>
+      <dc:date>2011-01-24T21:06:40+01:00</dc:date>
+    </item>
+    <item>
+      <title>Polderbeheer 2.0</title>
+      <link>http://www.by2.be/blog/2010/10/polderbeheer_2_0.html</link>
+      <description>&lt;p&gt;Deze zomer hebben we hard gewerkt aan een vernieuwde versie van Polderbeheer, ons programma voor polders en wateringen dat het merendeel van de administratie automatiseert.&lt;/p&gt;
+
+&lt;p&gt;Naast het verbeteren van heel wat functies zijn er enkele nieuwe mogelijkheden. De opvallendste is het automatiseren van het versturen van aanslagbiljetten. Daarvoor zijn we in zee gegaan met een nieuwe partner: &lt;a href=&quot;http://www.goekint.be&quot;&gt;Goekint Graphics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Deze nieuwe service biedt de polders de mogelijkheid het afdrukken, vouwen en/of verzenden van aanslagbiljetten en herinneringsbrieven op een goedkope manier te automatiseren. Het verzenden gebeurt met een mail-ID (barcode) waardoor we dit aan een erg interessante prijs kunnen doen.&lt;/p&gt;
+
+&lt;p&gt;Polders en wateringen die het systeem eens in werking willen zien, zijn altijd welkom. Geef ons een seintje via e-mail of telefoon.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/10/polderbeheer_2_0.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Fri, 01 Oct 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-10-01T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Enquête klasagenda.by2</title>
+      <link>http://www.by2.be/blog/2010/08/enquete_klasagenda.html</link>
+      <description>&lt;h1&gt;Uitslag enquête klasagenda.by2 2009-2010&lt;/h1&gt;
+
+&lt;p&gt;Eind vorig schooljaar (2009-2010) hielden we een enquête bij de gebruikers van &lt;a href=&quot;http://klasagenda.by2.be&quot;&gt;klasagenda.by2&lt;/a&gt;. We zijn blij met de grote respons en bedanken onze gebruikers dan ook graag voor het vrijmaken van hun tijd.&lt;/p&gt;
+
+&lt;p&gt;De feedback die we verzamelden via deze enquête heeft ons een beter zicht gegeven op wat belangrijk is voor leerkrachten in een digitale agenda. Daarnaast hebben we er heel wat tips uitgehaald die het programma nog kunnen verbeteren. Op basis van deze nieuwe informatie gaan we komende tijd een aantal aanpassingen maken en nieuwe mogelijkheden creëren. Via deze blog kun je daarvan op de hoogte blijven.&lt;/p&gt;
+
+&lt;p&gt;We geven hierbij een aantal items die aan bod kwamen met de resultaten. Het volledige rapport kun je &lt;a href=&quot;http://app.sgizmo.com/reports/74989/367005/8FEGX5WP3H6607547TGDT4SX6LDWPW/?ts=1282814567&quot;&gt;hier&lt;/a&gt; bekijken.&lt;/p&gt;
+
+&lt;h4&gt;Hoe belangrijk is de aanwezigheid van de leerplannen voor je?&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4929943206/&quot; title=&quot;Enquête klasagenda by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4120/4929943206_2af940442b.jpg&quot; width=&quot;409&quot; height=&quot;160&quot; alt=&quot;Enquête klasagenda&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Hoe verhoudt de snelheid van het plannen van een dag zich in vergelijking met een papieren agenda?&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4929942722/&quot; title=&quot;Enquête klasagenda by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4082/4929942722_8cc6766e6d.jpg&quot; width=&quot;438&quot; height=&quot;185&quot; alt=&quot;Enquête klasagenda&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Gebruik je de zoekfunctie om lessen toe te voegen van vorige jaren?&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4929942800/&quot; title=&quot;Enquête klasagenda by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4142/4929942800_e6180a3401.jpg&quot; width=&quot;377&quot; height=&quot;175&quot; alt=&quot;Enquête klasagenda&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Zou je klasagenda aanraden aan collega's, stagiairs en vrienden?&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4929942872/&quot; title=&quot;Enquête klasagenda by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4101/4929942872_7d1392641c.jpg&quot; width=&quot;297&quot; height=&quot;175&quot; alt=&quot;Enquête klasagenda&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;Zou het de snelheid van het invoeren van een les verbeteren indien je een uurrooster kunt maken in klasagenda waarmee een deel van de lessen dan al is ingevuld?&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4929942662/&quot; title=&quot;Enquête klasagenda by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4143/4929942662_67bc18bbf2.jpg&quot; width=&quot;456&quot; height=&quot;189&quot; alt=&quot;Enquête klasagenda&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/08/enquete_klasagenda.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Thu, 26 Aug 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-08-26T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Carri&amp;egrave;rebord voor paramedici</title>
+      <link>http://www.by2.be/blog/2010/06/carrierebord_voor_paramedici.html</link>
+      <description>&lt;h1&gt;Geef je carri&amp;egrave;re een boost!&lt;/h1&gt;
+
+&lt;p&gt;We hebben zonet een carrièrebord gelanceerd voor paramedici! Deze nieuwe service (te bereiken via: &lt;a href=&quot;http://carriere.paramedici.net&quot;&gt;http://carriere.paramedici.net&lt;/a&gt;) is &lt;a href=&quot;http://carriere.paramedici.net/waarom_gratis&quot;&gt;gratis&lt;/a&gt; en heeft momenteel twee mogelijkheden:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Werkzoekende paramedici kunnen er hun profiel posten in de vorm van een CV&lt;/li&gt;
+&lt;li&gt;Paramedici die personeel zoeken kunnen er vacatures plaatsen&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://carriere.paramedici.net&quot; title=&quot;Carrièrebord voor paramedici&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1151/4732437574_34b3ef55fb.jpg&quot; width=&quot;500&quot; height=&quot;413&quot; alt=&quot;Carrièrebord voor paramedici&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Waarom een jobsite?&lt;/h3&gt;
+
+&lt;p&gt;Carri&amp;egrave;rebord is een idee dat ontstaan is bij de ontwikkeling van &lt;a href=&quot;http://finaltouch.by2.be&quot;&gt;Finaltouch&lt;/a&gt;, een programma voor &lt;a href=&quot;http://www.by2.be/blog/2010/06/finaltouch_voor_paramedici.html&quot;&gt;paramedici&lt;/a&gt;. Een belangrijk kenmerk van Finaltouch is dat het mee groeit met de loopbaan van een paramedicus. Zo is het programma gratis voor starters. Groei je in je job? Dan kan je &lt;a href=&quot;http://finaltouch.by2.be&quot;&gt;Finaltouch&lt;/a&gt; laten meegroeien door een betalende Lite-versie te kiezen. Bouw je verder aan een groepspraktijk? Dan kan je Finaltouch opnieuw laten meegroeien.&lt;/p&gt;
+
+&lt;p&gt;Voor ons is het belangrijk dat onze gebruikers kunnen groeien. Want pas dan groeit Finaltouch mee. Carri&amp;egrave;rebord is hier een perfecte tegemoetkoming.&lt;/p&gt;
+
+&lt;p&gt;Zoek je werk? Publiceer je CV. Heb je een vacature? Post dan de job. Deze service is gratis, ook indien je geen gebruiker bent van &lt;a href=&quot;http://finaltouch.by2.be&quot;&gt;Finaltouch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Surf daarvoor naar &lt;a href=&quot;http://carriere.paramedici.net&quot;&gt;http://carriere.paramedici.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/carrierebord_voor_paramedici.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Fri, 25 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-25T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor paramedici</title>
+      <link>http://www.by2.be/blog/2010/06/finaltouch_voor_paramedici.html</link>
+      <description>&lt;p&gt;Meer en meer krijgen we de vraag voor welke disciplines Finaltouch te gebruiken is. Bij het ontwikkelen van Finaltouch hebben we gekozen voor een &lt;a href=&quot;http://www.by2.be/blog/2009/10/dossier_op_maat.html&quot;&gt;aanpasbaar dossier&lt;/a&gt;. Deze benadering zorgt ervoor dat het programma geschikt is voor verschillende paramedici en multidisciplinaire groepspraktijken. We hebben het hier dan onder andere over volgende beroepen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Osteopaat D.O.&lt;/li&gt;
+&lt;li&gt;Kinesist/Fysiotherapeut&lt;/li&gt;
+&lt;li&gt;Ergotherapeut&lt;/li&gt;
+&lt;li&gt;Logopedist&lt;/li&gt;
+&lt;li&gt;Optometrist&lt;/li&gt;
+&lt;li&gt;Verloskundige&lt;/li&gt;
+&lt;li&gt;Verpleegkundige&lt;/li&gt;
+&lt;li&gt;Manueel therapeut&lt;/li&gt;
+&lt;li&gt;Orthopeed&lt;/li&gt;
+&lt;li&gt;Pedicure&lt;/li&gt;
+&lt;li&gt;Psycholoog&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Als paramedicus kies je dus zelf hoe je dossier eruit ziet. Deze aanpassing is kosteloos  en kan je doorvoeren door ons een mailtje (&lt;script type=&quot;text/javascript&quot;&gt; support_enkoder() &lt;/script&gt;) te sturen met de namen van de velden die je wil in je dossier.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4608661477/&quot; title=&quot;Nieuw dossier by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1386/4608661477_ec26850896.jpg&quot; width=&quot;500&quot; height=&quot;282&quot; alt=&quot;Nieuw dossier&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Zoals je kan zien krijg je bij het inschrijven standaard een osteopathisch dossier voorgeschoteld. Dit heeft te maken met de &lt;a href=&quot;http://www.by2.be/blog/2009/09/finaltouch_toekomst.html&quot;&gt;geschiedenis&lt;/a&gt; van het programma maar is door ons heel snel aanpasbaar.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/finaltouch_voor_paramedici.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Tue, 22 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-22T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (5)</title>
+      <link>http://www.by2.be/blog/2010/06/mobiel_deel_5.html</link>
+      <description>&lt;h1&gt;Deel 5: De toekomst ...&lt;/h1&gt;
+
+&lt;p&gt;Finaltouch gebruiken zowel in de praktijk, in de auto als bij de patiënt thuis is een wens van veel osteopaten. Alternatieven zoals de iPhone met een betrekkelijk klein scherm hebben hoe dan ook beperkingen. Een andere oplossing is je computer voorzien van een abonnement bij een provider van mobiel internet. Op deze manier kun je overal aan je mails en natuurlijk aan Finaltouch. Zo'n systeem &lt;a href=&quot;http://offer.mobistar.be/nl/aanbod/internet/internet-everywhere/internet-everywhere-ticket&quot;&gt;kost&lt;/a&gt; ondertussen nog maar 5 euro/maand met een instapkost van ongeveer € 70.&lt;/p&gt;
+
+&lt;p&gt;De iPad ontwikkeld door Apple lijkt hier een elegante alternatieve oplossing te bieden.&lt;/p&gt;
+
+&lt;p&gt;Is de iPad een oplossing die jou interesseert? Of ben je geïnteresseerd om in de toekomst Finaltouch op de iPad uit te testen? Geef ons dan een seintje.
+Wij kijken er alvast naar uit en houden jullie op de hoogte van de evoluties.&lt;/p&gt;
+
+&lt;p&gt;Zo, dit was meteen de laatste blogpost in een reeks van vijf over het mobiel gebruiken van Finaltouch. Heb je nog vragen of nieuwe ideeën? Reageer gerust op de berichten of geef ons een mailtje.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/mobiel_deel_5.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Fri, 11 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-11T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (4)</title>
+      <link>http://www.by2.be/blog/2010/06/mobiel_deel_4.html</link>
+      <description>&lt;h1&gt;Deel 4: De tijd aanpassen&lt;/h1&gt;
+
+&lt;p&gt;Zoals beschreven in vorige artikels kies je bij het maken van een afspraak eerst of het om een &lt;a href=&quot;http://by2.be/blog/2010/05/mobiel_deel_2.html&quot;&gt;nieuwe&lt;/a&gt; of &lt;a href=&quot;http://by2.be/blog/2010/06/mobiel_deel_3.html&quot;&gt;bestaande&lt;/a&gt; patiënt gaat. Daarna kies je een vrij moment uit de lijst en noteer je de naam van de patiënt. Heb je die twee zaken gekozen dan kun je de naam noteren en kun je eventueel de tijd veranderen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4584402570/&quot; title=&quot;iphone by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4051/4584402570_48870c137e.jpg&quot; width=&quot;500&quot; height=&quot;290&quot; alt=&quot;iphone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dat laatste is meestal niet meer nodig omdat het programma slim genoeg is om een realistisch voorstel te doen. Zo wordt bijvoorbeeld de lengte van een afspraak aangepast aan je voorkeuren die je eenmaal moet instellen in Finaltouch. Daarnaast houden de voorstellen van vrije momenten rekening met reeds gemaakte afspraken om overlappingen te vermijden.&lt;/p&gt;
+
+&lt;p&gt;Wens je het tijdstip toch te veranderen? Dan klik je op de tijd. Met enkele knoppen kun je snel het uur en de minuten wijzigen van het begin en einduur. Valt de tijdspanne gelijktijdig met een andere afspraak, dan kleurt de informatie over het vrij moment rood (zie tweede afbeelding).&lt;/p&gt;
+
+&lt;p&gt;Met dit artikel hebben we alle functionaliteit besproken. In het volgende en laatste artikel kijken we nog even naar de toekomst.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/mobiel_deel_4.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-08T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (3)</title>
+      <link>http://www.by2.be/blog/2010/06/mobiel_deel_3.html</link>
+      <description>&lt;h1&gt;Deel 3: Een afspraak maken voor een bestaande patiënt&lt;/h1&gt;
+
+&lt;p&gt;Bij het kiezen van een bestaande patiënt in het hoofdmenu wordt ook hier gezocht naar vrije momenten. Na het kiezen van een vrije ruimte in de agenda kun je ook hier de patiënt invullen en de tijd aanpassen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4583774203/&quot; title=&quot;iphone by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4007/4583774203_ccd7c9ae8f.jpg&quot; width=&quot;500&quot; height=&quot;290&quot; alt=&quot;iphone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Het invullen van de patiënt verloopt hier anders als bij een nieuwe patiënt. Bij het klikken op de naam kun je de naam of een stukje daarvan invullen. Klik daarna op &quot;patiënt opzoeken&quot; (eerste iPhone op de afbeelding) en je krijgt een lijst die voldoet aan je zoekopdracht. Deze zoekfunctie is heel krachtig. Zo kun je stukjes van een naam en/of voornaam intikken, gescheiden door een spatie. Op die manier hoef je niet na te denken over de schrijfwijze van de naam en kun je dus heel snel je afspraak maken.&lt;/p&gt;
+
+&lt;p&gt;In het volgende artikel gaan we zien hoe je de tijd kunt wijzigen.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/mobiel_deel_3.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Tue, 01 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-01T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (2)</title>
+      <link>http://www.by2.be/blog/2010/05/mobiel_deel_2.html</link>
+      <description>&lt;h1&gt;Deel 2: Een afspraak maken voor een nieuwe patiënt&lt;/h1&gt;
+
+&lt;p&gt;Zoals ik in het vorig artikel reeds schreef, hebben we bij het ontwerpen van de mobiele applicatie een aantal fundamentele keuzes gemaakt. Zo hebben we er bijvoorbeeld voor gezorgd dat het dataverkeer tussen de server en het mobiel toestel minimaal is. Dit vertaalt zich in een enorm snelle reactie van de applicatie op handelingen. Je zou zelf bijna vergeten dat je draadloos en los van je eigen netwerk thuis, Finaltouch aan het gebruiken bent ...&lt;/p&gt;
+
+&lt;p&gt;Naast het feit dat vele kilobytes versassen met je mobiel toestel uit den boze is, hebben de meeste lay-outs te kampen met een ander probleem. Zo moet er meestal teveel getoond worden op een relatief klein scherm. Het gevolg kan je raden: leuk om mobiel vanalles te kunnen doen, maar niet vol te houden wegens een slechte gebruikservaring. Daarom hebben we het idee van Finaltouch (met een volwaardige agenda) gewoon omgedraaid. Want wat is belangrijk op verplaatsing? Snel en zonder sukkelen een afspraak kunnen vastzetten. Concreet hebben we ervoor gezorgd dat je bij het maken van een afspraak een overzichtelijk lijstje voorgeschoteld krijgt met enkel nuttige gegevens: de vrije momenten.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4583774021/&quot; title=&quot;iphone by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4064/4583774021_50e5e43ea1.jpg&quot; width=&quot;500&quot; height=&quot;290&quot; alt=&quot;iphone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dus na het kiezen van een nieuwe of bestaande patiënt in het hoofdmenu krijg je alle vrije momenten die de volgende 7 dagen nog beschikbaar zijn. Wil je de lijst uitbreiden met alle vrije momenten van de volgende 7 dagen? Dan klik je onderaan (na het laatste vrije moment) op &quot;Zoek volgende week ...&quot;&lt;/p&gt;
+
+&lt;p&gt;Na het kiezen van een tijdstip klik je op &quot;naam&quot;, vul je de naam in van de nieuwe patiënt en klik je bovenaan rechts op &quot;Gereed&quot;.&lt;/p&gt;
+
+&lt;p&gt;De tijd wordt automatisch aangepast volgens je voorkeuren in Finaltouch. Indien je voor een nieuwe patiënt 50 minuten reserveert, dan wordt het einduur van je afspraak automatisch aangepast.&lt;/p&gt;
+
+&lt;p&gt;In het volgende deel leg ik uit hoe je een afspraak maakt voor bestaande patiënten.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/05/mobiel_deel_2.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Thu, 27 May 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-05-27T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (1)</title>
+      <link>http://www.by2.be/blog/2010/05/mobiel_deel_1.html</link>
+      <description>&lt;h1&gt;Deel 1: Waar vind je de mobiele applicatie?&lt;/h1&gt;
+
+&lt;p&gt;Indien je je browser opent met je mobiel toestel en surft naar &quot;&lt;a href=&quot;http://finaltouch.by2.be&quot;&gt;http://finaltouch.by2.be&lt;/a&gt;&quot;, dan herkent Finaltouch de meeste telefoons en word je automatisch doorverwezen naar de mobiele applicatie. Gebeurt dit niet? Dan surf je naar: &quot;&lt;a href=&quot;http://finaltouch.by2.be/mobile&quot;&gt;http://finaltouch.by2.be/mobile&lt;/a&gt;&quot;. Om dit werk in de toekomst maar één keer te doen maak je van deze applicatie een bladwijzer of voeg je de url toe in je beginscherm (zie de snelkoppeling naar Finaltouch op de eerste iPhone op de schermafbeelding).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4584402064/&quot; title=&quot;iphone by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4042/4584402064_044f326a1f.jpg&quot; width=&quot;500&quot; height=&quot;290&quot; alt=&quot;iphone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Na het inloggen met je eigen e-mail en paswoord kom je in het hoofdmenu. Daar kies je of je een afspraak wil maken voor een nieuwe of bestaande patiënt. Deze eerste keuze is belangrijk omdat Finaltouch op zoek gaat naar vrije momenten in je agenda. Omdat de duur van een afspraak verschilt bij nieuwe of bestaande patiënten is het zoeken naar vrije momenten daar afhankelijk van.&lt;/p&gt;
+
+&lt;p&gt;Een afspraak maken door een vrij moment te kiezen, is een bewuste keuze geweest bij het ontwerpen van de mobiele applicatie. Het gevolg van die keuze is duidelijk voelbaar bij het maken van afspraken. I.p.v. zoeken, scrollen of bladeren in een agenda op zoek naar vrije momenten, heb je die nu gewoon te kiezen uit een lijstje. In de volgende post kun je daar meer over lezen.&lt;/p&gt;
+
+&lt;p&gt;Je kunt er ook voor kiezen om ingelogd te blijven. Wanneer je Finaltouch de volgende keer opstart, zul je onmiddellijk naar het hoofdmenu (zie derde afbeelding) doorverwezen worden.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/05/mobiel_deel_1.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Wed, 26 May 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-05-26T23:00:40+02:00</dc:date>
+    </item>
+  </channel>
+</rss>

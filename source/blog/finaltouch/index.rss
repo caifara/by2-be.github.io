@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>By2.be - Blog</title>
+    <link>http://www.by2.be/blog</link>
+    <description>Nieuws over by2.be</description>
+    <language>nl</language>
+    <lastBuildDate>Wed, 16 Oct 2013 14:35:33 +0200</lastBuildDate>
+    <item>
+      <title>Herinner je patiënt aan de afspraak</title>
+      <link>http://www.by2.be/blog/2013/08/persoonlijker_smsen.html</link>
+      <description>&lt;h1&gt;Persoonlijker sms'en&lt;/h1&gt;
+
+&lt;p&gt;Het sms'en naar patiënten kan vanaf nu een stuk persoonlijker. Voorheen werd er een standaard bericht verstuurd om de patiënt te herinneren aan een afspraak. Vanaf nu is het mogelijk om de inhoud van het bericht zelf te kiezen. Indien gewenst kun je variabele gegevens (zoals naam en datum) verwerken in het bericht.&lt;/p&gt;
+
+&lt;p&gt;Voorbeeld:&lt;/p&gt;
+
+&lt;p&gt;Beste %naam%, op %datum% heeft u een afspraak met uw osteopaat. Groeten, Jan&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/9569832625/&quot; title=&quot;Persoonlijk sms'en by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5329/9569832625_bd9517a828.jpg&quot; width=&quot;500&quot; height=&quot;170&quot; alt=&quot;Persoonlijk sms'en&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2013/08/persoonlijker_smsen.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Fri, 30 Aug 2013 22:00:40 +0200</pubDate>
+      <dc:date>2013-08-30T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch op tablets</title>
+      <link>http://www.by2.be/blog/2013/08/finaltouch_op_tablets.html</link>
+      <description>&lt;h1&gt;Finaltouch mobieler&lt;/h1&gt;
+
+&lt;p&gt;Het gebruik van tablets is de laatste jaren enorm toegenomen. Ook bij onze gebruikers zien we een gelijkaardige stijging. De tablet biedt in een aantal situaties voordelen t.o.v. een pc of laptop.&lt;/p&gt;
+
+&lt;p&gt;Daarom hebben Finaltouch geoptimaliseerd voor tablets. De gebruikservaring is daardoor een stuk verbeterd.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/smemon/7469170810/&quot; title=&quot;ipad by Sean MacEntee, on Flickr&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8146/7469170810_e51b69b7d8.jpg&quot; width=&quot;500&quot; height=&quot;167&quot; alt=&quot;ipad&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2013/08/finaltouch_op_tablets.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 26 Aug 2013 22:00:40 +0200</pubDate>
+      <dc:date>2013-08-26T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Patiëntengegevens exporteren</title>
+      <link>http://www.by2.be/blog/2013/08/meer_doen_met_patientendossiers.html</link>
+      <description>&lt;h1&gt;Meer doen met patiëntengegevens&lt;/h1&gt;
+
+&lt;p&gt;Wil je je eigen database met patiënten gebruiken voor bijvoorbeeld briefwisseling? Dan zal deze nieuwe functie een grote meerwaarde zijn. Je kunt ermee je volledige lijst van patiënten met de persoonlijke gegevens downloaden in Excel. Het voordeel van dit formaat is dat het in veel gevallen te koppelen of te importeren is in andere systemen zoals Word (om brieven te koppelen) of Numbers (indien je met een Mac werkt).&lt;/p&gt;
+
+&lt;p&gt;Het exporteren kan door te klikken op &quot;exporteer&quot; bij &quot;dossiers&quot; in de agenda.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/9569827487/&quot; title=&quot;Patiënten exporteren by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5450/9569827487_4cc5e72871.jpg&quot; width=&quot;500&quot; height=&quot;191&quot; alt=&quot;Patiënten exporteren&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2013/08/meer_doen_met_patientendossiers.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 19 Aug 2013 22:00:40 +0200</pubDate>
+      <dc:date>2013-08-19T22:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Groepspraktijken in Finaltouch</title>
+      <link>http://www.by2.be/blog/2012/08/groepspraktijk_finaltouch.html</link>
+      <description>&lt;p&gt;In Finaltouch kun je groepspraktijken aanmaken. De osteopaat die ze aanmaakt (beheerder) kan vervolgens collega's uitnodigen. Daarna kun je dossiers en agenda's delen. Hieronder wat meer uitleg met schermafdrukken:&lt;/p&gt;
+
+&lt;p&gt;1 Laat je collega een eigen account aanmaken: https://finaltouch.by2.be/signup&lt;/p&gt;
+
+&lt;p&gt;2 maak een nieuwe groepspraktijk aan.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7822186710/&quot;
+title=&quot;Groepspraktijk aanmaken by by2.be, on Flickr&quot;&gt;&lt;img
+src=&quot;http://farm9.staticflickr.com/8436/7822186710_1d6ea4e43c.jpg&quot;
+width=&quot;500&quot; height=&quot;170&quot; alt=&quot;Groepspraktijk aanmaken&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3 Voeg je collega toe aan de groepspraktijk. Vul het e-mailadres in waarmee hij een account aangemaakt heeft.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/7822186962/&quot;
+title=&quot;Collega uitnodigen by by2.be, on Flickr&quot;&gt;&lt;img
+src=&quot;http://farm9.staticflickr.com/8284/7822186962_f902183ba8.jpg&quot;
+width=&quot;500&quot; height=&quot;247&quot; alt=&quot;Collega uitnodigen&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;4 Je collega krijgt een e-mail en moet de uitnodiging accepteren. Indien hij/zij de e-mail niet ontvangt dan kijk je best eens bij de spam.&lt;/p&gt;
+
+&lt;p&gt;Nog enkele opmerkingen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In de agenda kun je kiezen tussen je eigen agenda of die van de
+groepspraktijk&lt;/li&gt;
+&lt;li&gt;In het dossier kun je nu je patiënt delen met de groepspraktijk&lt;/li&gt;
+&lt;li&gt;Je kan delen van je agenda afschermen (onzichtbaar maken) voor de
+leden in de groepspraktijk (zie voorkeuren: &quot;mijn werkuren bepalen in deze groepspraktijk&quot;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href='/blog/2012/08/groepspraktijk_finaltouch.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 20 Aug 2012 22:06:40 +0200</pubDate>
+      <dc:date>2012-08-20T22:06:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch: latest and greatest</title>
+      <link>http://www.by2.be/blog/2011/01/finaltouch_latest_and_greatest.html</link>
+      <description>&lt;h1&gt;Herinnering voor een nieuwe afspraak&lt;/h1&gt;
+
+&lt;p&gt;Vandaag kondigen we opnieuw een update aan. De belangrijkste aanpassing is de aanwezigheid van een nieuwe interessante functie.&lt;/p&gt;
+
+&lt;p&gt;Vanaf nu is het mogelijk om je patiënten een herinnering te sturen na verloop van een bepaalde, zelfgekozen tijd. Als je patiënt op consultatie is, kun je samen afspreken dat je na bijvoorbeeld 4 maanden een seintje geeft dat het misschien een goed moment is om een nieuwe afspraak te maken.&lt;/p&gt;
+
+&lt;p&gt;Op die manier bind je je klant beter aan jou en je praktijk en bied je een behulpzame service die patiënten zeer aangenaam vinden. Temeer natuurlijk dat je de kans sterk verhoogt dat die persoon een afspraak maakt en je zo je inkomsten de hoogte in stuwt.&lt;/p&gt;
+
+&lt;p&gt;We geven nog even kort mee hoe je ermee werkt. Je kunt zo'n herinnering instellen tijdens de consultatie van een patiënt onder de blok voor de nieuwe behandeling.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/5384943580/&quot; title=&quot;Schermafbeelding 2011-01-24 om 17.22.38 by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.static.flickr.com/5212/5384943580_bd459ed144.jpg&quot; width=&quot;268&quot; height=&quot;416&quot; alt=&quot;Schermafbeelding 2011-01-24 om 17.22.38&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Na het instellen ziet die onderste blok er zo uit:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/5384943652/&quot; title=&quot;Schermafbeelding 2011-01-24 om 17.22.21 by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.static.flickr.com/5216/5384943652_d9fae8d344.jpg&quot; width=&quot;273&quot; height=&quot;406&quot; alt=&quot;Schermafbeelding 2011-01-24 om 17.22.21&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vergeet ook niet de e-mail zelf in te stellen in de voorkeuren!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/5384339463/&quot; title=&quot;Schermafbeelding 2011-01-24 om 16.30.41 by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm6.static.flickr.com/5213/5384339463_d71f257586.jpg&quot; width=&quot;500&quot; height=&quot;428&quot; alt=&quot;Schermafbeelding 2011-01-24 om 16.30.41&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Naast deze belangrijke nieuwe mogelijkheid zijn er nog enkele fouten opgelost. De verbeteringen waarmee je misschien in contact bent gekomen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;het einde van een herhalende afspraak wordt bij bewerken correct getoond,&lt;/li&gt;
+&lt;li&gt;inloggegevens worden correct onthouden op de mobiele applicatie.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;We hopen dat jullie deze update met nieuwe mogelijkheid kunnen smaken! Spread the word! (O ja, hebben we vermeld dat je deze update er gratis bij krijgt? Gebruiken maar!)&lt;/p&gt;
+
+&lt;p&gt;Deze update kwam tot stand met de steun van Tom Meyers (&lt;a href=&quot;http://www.biomotions.com&quot;&gt;www.biomotions.com&lt;/a&gt;), waarvoor dank.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2011/01/finaltouch_latest_and_greatest.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Mon, 24 Jan 2011 21:06:40 +0100</pubDate>
+      <dc:date>2011-01-24T21:06:40+01:00</dc:date>
+    </item>
+    <item>
+      <title>Carri&amp;egrave;rebord voor paramedici</title>
+      <link>http://www.by2.be/blog/2010/06/carrierebord_voor_paramedici.html</link>
+      <description>&lt;h1&gt;Geef je carri&amp;egrave;re een boost!&lt;/h1&gt;
+
+&lt;p&gt;We hebben zonet een carrièrebord gelanceerd voor paramedici! Deze nieuwe service (te bereiken via: &lt;a href=&quot;http://carriere.paramedici.net&quot;&gt;http://carriere.paramedici.net&lt;/a&gt;) is &lt;a href=&quot;http://carriere.paramedici.net/waarom_gratis&quot;&gt;gratis&lt;/a&gt; en heeft momenteel twee mogelijkheden:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Werkzoekende paramedici kunnen er hun profiel posten in de vorm van een CV&lt;/li&gt;
+&lt;li&gt;Paramedici die personeel zoeken kunnen er vacatures plaatsen&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://carriere.paramedici.net&quot; title=&quot;Carrièrebord voor paramedici&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1151/4732437574_34b3ef55fb.jpg&quot; width=&quot;500&quot; height=&quot;413&quot; alt=&quot;Carrièrebord voor paramedici&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Waarom een jobsite?&lt;/h3&gt;
+
+&lt;p&gt;Carri&amp;egrave;rebord is een idee dat ontstaan is bij de ontwikkeling van &lt;a href=&quot;http://finaltouch.by2.be&quot;&gt;Finaltouch&lt;/a&gt;, een programma voor &lt;a href=&quot;http://www.by2.be/blog/2010/06/finaltouch_voor_paramedici.html&quot;&gt;paramedici&lt;/a&gt;. Een belangrijk kenmerk van Finaltouch is dat het mee groeit met de loopbaan van een paramedicus. Zo is het programma gratis voor starters. Groei je in je job? Dan kan je &lt;a href=&quot;http://finaltouch.by2.be&quot;&gt;Finaltouch&lt;/a&gt; laten meegroeien door een betalende Lite-versie te kiezen. Bouw je verder aan een groepspraktijk? Dan kan je Finaltouch opnieuw laten meegroeien.&lt;/p&gt;
+
+&lt;p&gt;Voor ons is het belangrijk dat onze gebruikers kunnen groeien. Want pas dan groeit Finaltouch mee. Carri&amp;egrave;rebord is hier een perfecte tegemoetkoming.&lt;/p&gt;
+
+&lt;p&gt;Zoek je werk? Publiceer je CV. Heb je een vacature? Post dan de job. Deze service is gratis, ook indien je geen gebruiker bent van &lt;a href=&quot;http://finaltouch.by2.be&quot;&gt;Finaltouch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Surf daarvoor naar &lt;a href=&quot;http://carriere.paramedici.net&quot;&gt;http://carriere.paramedici.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/carrierebord_voor_paramedici.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Fri, 25 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-25T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor paramedici</title>
+      <link>http://www.by2.be/blog/2010/06/finaltouch_voor_paramedici.html</link>
+      <description>&lt;p&gt;Meer en meer krijgen we de vraag voor welke disciplines Finaltouch te gebruiken is. Bij het ontwikkelen van Finaltouch hebben we gekozen voor een &lt;a href=&quot;http://www.by2.be/blog/2009/10/dossier_op_maat.html&quot;&gt;aanpasbaar dossier&lt;/a&gt;. Deze benadering zorgt ervoor dat het programma geschikt is voor verschillende paramedici en multidisciplinaire groepspraktijken. We hebben het hier dan onder andere over volgende beroepen:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Osteopaat D.O.&lt;/li&gt;
+&lt;li&gt;Kinesist/Fysiotherapeut&lt;/li&gt;
+&lt;li&gt;Ergotherapeut&lt;/li&gt;
+&lt;li&gt;Logopedist&lt;/li&gt;
+&lt;li&gt;Optometrist&lt;/li&gt;
+&lt;li&gt;Verloskundige&lt;/li&gt;
+&lt;li&gt;Verpleegkundige&lt;/li&gt;
+&lt;li&gt;Manueel therapeut&lt;/li&gt;
+&lt;li&gt;Orthopeed&lt;/li&gt;
+&lt;li&gt;Pedicure&lt;/li&gt;
+&lt;li&gt;Psycholoog&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Als paramedicus kies je dus zelf hoe je dossier eruit ziet. Deze aanpassing is kosteloos  en kan je doorvoeren door ons een mailtje (&lt;script type=&quot;text/javascript&quot;&gt; support_enkoder() &lt;/script&gt;) te sturen met de namen van de velden die je wil in je dossier.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4608661477/&quot; title=&quot;Nieuw dossier by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1386/4608661477_ec26850896.jpg&quot; width=&quot;500&quot; height=&quot;282&quot; alt=&quot;Nieuw dossier&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Zoals je kan zien krijg je bij het inschrijven standaard een osteopathisch dossier voorgeschoteld. Dit heeft te maken met de &lt;a href=&quot;http://www.by2.be/blog/2009/09/finaltouch_toekomst.html&quot;&gt;geschiedenis&lt;/a&gt; van het programma maar is door ons heel snel aanpasbaar.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/finaltouch_voor_paramedici.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Tue, 22 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-22T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (5)</title>
+      <link>http://www.by2.be/blog/2010/06/mobiel_deel_5.html</link>
+      <description>&lt;h1&gt;Deel 5: De toekomst ...&lt;/h1&gt;
+
+&lt;p&gt;Finaltouch gebruiken zowel in de praktijk, in de auto als bij de patiënt thuis is een wens van veel osteopaten. Alternatieven zoals de iPhone met een betrekkelijk klein scherm hebben hoe dan ook beperkingen. Een andere oplossing is je computer voorzien van een abonnement bij een provider van mobiel internet. Op deze manier kun je overal aan je mails en natuurlijk aan Finaltouch. Zo'n systeem &lt;a href=&quot;http://offer.mobistar.be/nl/aanbod/internet/internet-everywhere/internet-everywhere-ticket&quot;&gt;kost&lt;/a&gt; ondertussen nog maar 5 euro/maand met een instapkost van ongeveer € 70.&lt;/p&gt;
+
+&lt;p&gt;De iPad ontwikkeld door Apple lijkt hier een elegante alternatieve oplossing te bieden.&lt;/p&gt;
+
+&lt;p&gt;Is de iPad een oplossing die jou interesseert? Of ben je geïnteresseerd om in de toekomst Finaltouch op de iPad uit te testen? Geef ons dan een seintje.
+Wij kijken er alvast naar uit en houden jullie op de hoogte van de evoluties.&lt;/p&gt;
+
+&lt;p&gt;Zo, dit was meteen de laatste blogpost in een reeks van vijf over het mobiel gebruiken van Finaltouch. Heb je nog vragen of nieuwe ideeën? Reageer gerust op de berichten of geef ons een mailtje.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/mobiel_deel_5.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Fri, 11 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-11T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (4)</title>
+      <link>http://www.by2.be/blog/2010/06/mobiel_deel_4.html</link>
+      <description>&lt;h1&gt;Deel 4: De tijd aanpassen&lt;/h1&gt;
+
+&lt;p&gt;Zoals beschreven in vorige artikels kies je bij het maken van een afspraak eerst of het om een &lt;a href=&quot;http://by2.be/blog/2010/05/mobiel_deel_2.html&quot;&gt;nieuwe&lt;/a&gt; of &lt;a href=&quot;http://by2.be/blog/2010/06/mobiel_deel_3.html&quot;&gt;bestaande&lt;/a&gt; patiënt gaat. Daarna kies je een vrij moment uit de lijst en noteer je de naam van de patiënt. Heb je die twee zaken gekozen dan kun je de naam noteren en kun je eventueel de tijd veranderen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4584402570/&quot; title=&quot;iphone by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4051/4584402570_48870c137e.jpg&quot; width=&quot;500&quot; height=&quot;290&quot; alt=&quot;iphone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dat laatste is meestal niet meer nodig omdat het programma slim genoeg is om een realistisch voorstel te doen. Zo wordt bijvoorbeeld de lengte van een afspraak aangepast aan je voorkeuren die je eenmaal moet instellen in Finaltouch. Daarnaast houden de voorstellen van vrije momenten rekening met reeds gemaakte afspraken om overlappingen te vermijden.&lt;/p&gt;
+
+&lt;p&gt;Wens je het tijdstip toch te veranderen? Dan klik je op de tijd. Met enkele knoppen kun je snel het uur en de minuten wijzigen van het begin en einduur. Valt de tijdspanne gelijktijdig met een andere afspraak, dan kleurt de informatie over het vrij moment rood (zie tweede afbeelding).&lt;/p&gt;
+
+&lt;p&gt;Met dit artikel hebben we alle functionaliteit besproken. In het volgende en laatste artikel kijken we nog even naar de toekomst.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/mobiel_deel_4.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-08T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (3)</title>
+      <link>http://www.by2.be/blog/2010/06/mobiel_deel_3.html</link>
+      <description>&lt;h1&gt;Deel 3: Een afspraak maken voor een bestaande patiënt&lt;/h1&gt;
+
+&lt;p&gt;Bij het kiezen van een bestaande patiënt in het hoofdmenu wordt ook hier gezocht naar vrije momenten. Na het kiezen van een vrije ruimte in de agenda kun je ook hier de patiënt invullen en de tijd aanpassen.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4583774203/&quot; title=&quot;iphone by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4007/4583774203_ccd7c9ae8f.jpg&quot; width=&quot;500&quot; height=&quot;290&quot; alt=&quot;iphone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Het invullen van de patiënt verloopt hier anders als bij een nieuwe patiënt. Bij het klikken op de naam kun je de naam of een stukje daarvan invullen. Klik daarna op &quot;patiënt opzoeken&quot; (eerste iPhone op de afbeelding) en je krijgt een lijst die voldoet aan je zoekopdracht. Deze zoekfunctie is heel krachtig. Zo kun je stukjes van een naam en/of voornaam intikken, gescheiden door een spatie. Op die manier hoef je niet na te denken over de schrijfwijze van de naam en kun je dus heel snel je afspraak maken.&lt;/p&gt;
+
+&lt;p&gt;In het volgende artikel gaan we zien hoe je de tijd kunt wijzigen.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/06/mobiel_deel_3.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Tue, 01 Jun 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-06-01T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (2)</title>
+      <link>http://www.by2.be/blog/2010/05/mobiel_deel_2.html</link>
+      <description>&lt;h1&gt;Deel 2: Een afspraak maken voor een nieuwe patiënt&lt;/h1&gt;
+
+&lt;p&gt;Zoals ik in het vorig artikel reeds schreef, hebben we bij het ontwerpen van de mobiele applicatie een aantal fundamentele keuzes gemaakt. Zo hebben we er bijvoorbeeld voor gezorgd dat het dataverkeer tussen de server en het mobiel toestel minimaal is. Dit vertaalt zich in een enorm snelle reactie van de applicatie op handelingen. Je zou zelf bijna vergeten dat je draadloos en los van je eigen netwerk thuis, Finaltouch aan het gebruiken bent ...&lt;/p&gt;
+
+&lt;p&gt;Naast het feit dat vele kilobytes versassen met je mobiel toestel uit den boze is, hebben de meeste lay-outs te kampen met een ander probleem. Zo moet er meestal teveel getoond worden op een relatief klein scherm. Het gevolg kan je raden: leuk om mobiel vanalles te kunnen doen, maar niet vol te houden wegens een slechte gebruikservaring. Daarom hebben we het idee van Finaltouch (met een volwaardige agenda) gewoon omgedraaid. Want wat is belangrijk op verplaatsing? Snel en zonder sukkelen een afspraak kunnen vastzetten. Concreet hebben we ervoor gezorgd dat je bij het maken van een afspraak een overzichtelijk lijstje voorgeschoteld krijgt met enkel nuttige gegevens: de vrije momenten.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4583774021/&quot; title=&quot;iphone by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4064/4583774021_50e5e43ea1.jpg&quot; width=&quot;500&quot; height=&quot;290&quot; alt=&quot;iphone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dus na het kiezen van een nieuwe of bestaande patiënt in het hoofdmenu krijg je alle vrije momenten die de volgende 7 dagen nog beschikbaar zijn. Wil je de lijst uitbreiden met alle vrije momenten van de volgende 7 dagen? Dan klik je onderaan (na het laatste vrije moment) op &quot;Zoek volgende week ...&quot;&lt;/p&gt;
+
+&lt;p&gt;Na het kiezen van een tijdstip klik je op &quot;naam&quot;, vul je de naam in van de nieuwe patiënt en klik je bovenaan rechts op &quot;Gereed&quot;.&lt;/p&gt;
+
+&lt;p&gt;De tijd wordt automatisch aangepast volgens je voorkeuren in Finaltouch. Indien je voor een nieuwe patiënt 50 minuten reserveert, dan wordt het einduur van je afspraak automatisch aangepast.&lt;/p&gt;
+
+&lt;p&gt;In het volgende deel leg ik uit hoe je een afspraak maakt voor bestaande patiënten.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/05/mobiel_deel_2.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Thu, 27 May 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-05-27T23:00:40+02:00</dc:date>
+    </item>
+    <item>
+      <title>Finaltouch voor mobiele gebruikers (1)</title>
+      <link>http://www.by2.be/blog/2010/05/mobiel_deel_1.html</link>
+      <description>&lt;h1&gt;Deel 1: Waar vind je de mobiele applicatie?&lt;/h1&gt;
+
+&lt;p&gt;Indien je je browser opent met je mobiel toestel en surft naar &quot;&lt;a href=&quot;http://finaltouch.by2.be&quot;&gt;http://finaltouch.by2.be&lt;/a&gt;&quot;, dan herkent Finaltouch de meeste telefoons en word je automatisch doorverwezen naar de mobiele applicatie. Gebeurt dit niet? Dan surf je naar: &quot;&lt;a href=&quot;http://finaltouch.by2.be/mobile&quot;&gt;http://finaltouch.by2.be/mobile&lt;/a&gt;&quot;. Om dit werk in de toekomst maar één keer te doen maak je van deze applicatie een bladwijzer of voeg je de url toe in je beginscherm (zie de snelkoppeling naar Finaltouch op de eerste iPhone op de schermafbeelding).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/44127814@N06/4584402064/&quot; title=&quot;iphone by by2.be, on Flickr&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4042/4584402064_044f326a1f.jpg&quot; width=&quot;500&quot; height=&quot;290&quot; alt=&quot;iphone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Na het inloggen met je eigen e-mail en paswoord kom je in het hoofdmenu. Daar kies je of je een afspraak wil maken voor een nieuwe of bestaande patiënt. Deze eerste keuze is belangrijk omdat Finaltouch op zoek gaat naar vrije momenten in je agenda. Omdat de duur van een afspraak verschilt bij nieuwe of bestaande patiënten is het zoeken naar vrije momenten daar afhankelijk van.&lt;/p&gt;
+
+&lt;p&gt;Een afspraak maken door een vrij moment te kiezen, is een bewuste keuze geweest bij het ontwerpen van de mobiele applicatie. Het gevolg van die keuze is duidelijk voelbaar bij het maken van afspraken. I.p.v. zoeken, scrollen of bladeren in een agenda op zoek naar vrije momenten, heb je die nu gewoon te kiezen uit een lijstje. In de volgende post kun je daar meer over lezen.&lt;/p&gt;
+
+&lt;p&gt;Je kunt er ook voor kiezen om ingelogd te blijven. Wanneer je Finaltouch de volgende keer opstart, zul je onmiddellijk naar het hoofdmenu (zie derde afbeelding) doorverwezen worden.&lt;/p&gt;
+&lt;p&gt;&lt;a href='/blog/2010/05/mobiel_deel_1.html'&gt;Ga naar de blog&lt;/p&gt;</description>
+      <pubDate>Wed, 26 May 2010 23:00:40 +0200</pubDate>
+      <dc:date>2010-05-26T23:00:40+02:00</dc:date>
+    </item>
+  </channel>
+</rss>
