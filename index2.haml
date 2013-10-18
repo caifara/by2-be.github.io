@@ -1,0 +1,94 @@
+---
+---
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    %title by2.be webontwikkeling
+    / Bootstrap core CSS
+    %link{:href => "css/bootstrap.css", :rel => "stylesheet"}/
+    / Custom CSS for the 'Business Frontpage' Template
+    %link{:href => "css/business-frontpage.css", :rel => "stylesheet"}/
+  %body
+    %nav.navbar.navbar-fixed-top.navbar-default{:role => "navigation"}
+      .container
+        .navbar-header
+          %button.navbar-toggle{"data-target" => ".navbar-ex1-collapse", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand{:href => "index.html"} by2.be bvba
+        / Collect the nav links, forms, and other content for toggling
+        .collapse.navbar-collapse.navbar-ex1-collapse
+          -# %ul.nav.navbar-nav
+          -#   %li
+          -#     %a{:href => "#about"} About
+          -#   %li
+          -#     %a{:href => "#services"} Services
+          -#   %li
+          -#     %a{:href => "#contact"} Contact
+        / /.navbar-collapse
+      / /.container
+    .business-header
+      .container
+        .row
+          .col-lg-12
+            / The background image is set in the custom CSS
+            %h1.tagline 
+              We zijn een team van ontwikkelaars gepassioneerd door nieuwe webtechnologieën. 
+            %p 
+              We zijn goed in het omvormen van een ingewikkelde vraag tot een eenvoudige oplossing. Al 10 jaar werken we samen met ondernemers, scholen, universiteiten en vzw's. We slagen in elk project door duidelijk te communiceren en ons te houden aan afspraken.
+            %p
+              %a.btn.btn-default.btn-large{:href => "#"} contacteer ons &raquo;
+    .container
+      %hr/
+      .row.text-center
+        .col-sm-4
+          %img.img-circle.img-responsive.text-center{:src => "/img/zoom_in.png"}/
+          %h2 Samen naar een oplossing
+          %p Door goed te luisteren leren we het probleem echt kennen. Door te spreken in jouw taal (en niet het technisch jargon) begrijpen we elkaar en komen we tot een eenvoudige oplossing, ook al is het probleem complex.
+        .col-sm-4
+          %img.img-circle.img-responsive{:src => "/img/gear.png"}/
+          %h2 Weboplossingen bouwen
+          %p Met 10 jaar ervaring in het uitbouwen van geavanceerde weboplossingen met een waaier aan technische vereisten staan we voor elke uitdaging klaar. We begeleiden je naar het eindproduct in een proces van ontwikkelen, terugkoppelen en bijschaven.
+        .col-sm-4
+          %img.img-circle.img-responsive{:src => "/img/info.png"}/
+          %h2 Naar de doelgroep begeleiden
+          %p Bij het bedenken van een oplossing en ontwikkelen van een product heeft de eindgebruiker een centrale plaats. Onze weboplossingen gaan altijd gepaard met advies en tips voor effectief gebruik.
+      %hr/
+      .row
+        .col-lg-8.col-sm-8
+          %h2 Onze rol
+          %p Onze rol bestaat erin jouw vraag goed te leren kennen, de juiste technologie te kiezen en je te begeleiden tijdens en en na de ontwikkeling. We luisteren daarom goed en stellen de juiste vragen. Vanuit jouw oogpunt en met onze expertise formuleren we een voorstel. In dit voorstel vermijden we het technische jargon en schema's. Onze voorstellen zijn leesbaar en bevatten oplossingen. Daarbij krijg je een zicht op de prijs en de berekening ervan. Zo kun je zelf bijsturen wat voor jou belangrijk is in verhouding met de prijs. Tijdens de ontwikkeling ben je permanent en actief betrokken. Je kunt de evolutie volgen en bijsturen. Deze betrokkenheid komt ook van onze kant. We denken graag inhoudelijk mee en geven advies om de ingebruikname te laten resulteren tot een succes.
+          %p
+            %a.btn.btn-default.btn-large{:href => "#"} Bekijk onze referenties &raquo;
+        .col-lg-4.col-sm-4
+          %h2 Contacteer ons
+          %address
+            %strong by2.be bvba
+            %br/
+            Rubenslaan 25
+            %br/
+            8310 Brugge
+            %br/
+          %address
+            %abbr{:title => "Phone"} T:
+            050 969 962
+            %br/
+            %abbr{:title => "Email"} E:
+            %a{:href => "mailto:#"} team@by2.be
+      %hr/
+      %footer
+        .row
+          .col-lg-12
+            %p by2.be bvba &middot; Rubenslaan 25 &middot; 8310 Brugge
+    / /container
+    / Bootstrap core JavaScript
+    / Placed at the end of the document so the pages load faster
+    / Don't forget to add jQuery - download the most recent version at http://jquery.com/
+    %script{:src => "js/jquery.js"}
+    %script{:src => "js/bootstrap.js"}
