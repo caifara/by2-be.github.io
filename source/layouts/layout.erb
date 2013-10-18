@@ -48,9 +48,9 @@
             </p>
             
             <p>
-              <% if current_page.data.call_to_action == true %>
-                <a class='btn btn-default btn-large' href='/contact'>contacteer ons &raquo;</a>
-              <% end %>
+            <a class='btn btn-default btn-large' href='<%= current_page.data.call_to_action_link %>'>
+                <%= current_page.data.call_to_action %> &raquo;
+              </a>
             </p>
           </div>
         </div>
