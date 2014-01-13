@@ -45,11 +45,29 @@
 #   end
 # end
 
+# helpers do
+#   def friendly_url(faq)
+#     faq["t"].gsub(/[\s\?]/, " " => "_", "?" => "")
+#   end
+# end
+
+# set :haml, { :ugly => true, :format => :html5 }
+# data.faq.questions.each do |faq|
+#   page "/lichtvis/#{friendly_url(faq)}.html", :proxy => "faq_template.html", :layout => "knowledge_base", :ignore => true do
+#     @faq = faq
+#   end
+#   page "/javascripts/#{faq}.json"
+# end
+
+portfolio_items = sitemap.where(:tag => "portfolio")
+
+proxy "portfolio.html", "/portfolio_template.html", :locals => {:bla => "bla", :items => portfolio_items}
+
 class HtmlFiles < Middleman::Extension
   def initialize(app, options_hash={}, &block)
     super
     app.after_build do |builder|
-      puts "----------------------------"
+      puts "Oude blog in orde zetten"
       system "rm -R tmp/blog"
       puts (system "cp -R source/blog tmp/blog")
     end

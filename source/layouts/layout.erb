@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <meta charset='utf-8'>
-    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-    <meta content='' name='description'>
-    <meta content='' name='author'>
-    <title>by2.be webontwikkeling</title>
-    <!-- Bootstrap core CSS -->
-    <link href='stylesheets/bootstrap.css' rel='stylesheet'>
-    <!-- Custom CSS for the 'Business Frontpage' Template -->
-    <link href='stylesheets/business-frontpage.css' rel='stylesheet'>
+    <%= partial "/layouts/head" %>
+    <title><%= current_page.data.title %></title>
   </head>
   <body>
     <nav class='navbar navbar-fixed-top navbar-default' role='navigation'>
@@ -71,22 +64,6 @@
         </div>
       </footer>
     </div>
-    <!-- /container -->
-    <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- Don't forget to add jQuery - download the most recent version at http://jquery.com/ -->
-    <script src='js/jquery.js'></script>
-    <script src='js/bootstrap.js'></script>
-    <script src='js/application.js'></script>
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      try {
-        var pageTracker = _gat._getTracker("UA-2114155-1");
-        pageTracker._trackPageview();
-        } catch(err) {}
-    </script>
+    <%= partial "/layouts/javascript.erb" %>
   </body>
 </html>
