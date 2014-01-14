@@ -48,13 +48,17 @@
 ready do
   portfolio_items = sitemap.where(:tag.include => "portfolio").all
 
-  page "portfolio/index.html", :proxy => "/portfolio_template.html", :ignore => true do
+  page "portfolio/index.html", :proxy => "/portfolio_template.html", :ignore => true do 
     @portfolio_items = portfolio_items
+      content_for(:title, "Onze portfolio, ons werk")
+      content_for(:subtitle, "Naast een aantal eigen projecten ontwikkelen we digitale oplossingen op vraag. Onze realisaties zijn gefocust op eenvoud voor de gebruiker.")
   end
 
   portfolio_items.each do |portfolio_item|
     page "#{portfolio_item.url}index.html", :proxy => "/portfolio_item_template.html", :ignore => true do
       @portfolio_item = portfolio_item
+      content_for(:title, @portfolio_item.data[:title])
+      content_for(:subtitle, @portfolio_item.data[:subtitle])
       # portfolio_items.delete(portfolio_item)
       @other_projects = portfolio_items.sample(3)
     end

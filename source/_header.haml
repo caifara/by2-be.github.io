@@ -1,0 +1,28 @@
+- if current_page.path == "index.html" 
+  .business-header
+    .container
+      .row
+        .col-lg-12 
+          %p - WIJ ZIJN BY2.BE -
+          %h1.tagline= current_page.data.title
+          %p= current_page.data.subtitle
+          %p
+            %a{href: current_page.data.call_to_action_link, class: "btn btn-default btn-large"}
+              =current_page.data.call_to_action
+              &raquo;
+            %a{href: "/portfolio", class: "btn btn-transparent btn-large"}
+              bekijk ons werk &raquo;
+- else
+  .default-page-header
+    .container
+      .row
+        .col-lg-12
+          - if yield_content(:title)
+            %h1.tagline= yield_content(:title)
+            %p= yield_content(:subtitle)
+          - else
+            %h1.tagline= current_page.data[:title]
+            %p= current_page.data[:subtitle]
+
+
+.header-border
