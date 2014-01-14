@@ -1,1 +1,4 @@
-require 'middleman-gh-pages'
+task :deploy do
+  system "middleman build"
+  system "git push heroku master"
+end

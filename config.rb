@@ -45,32 +45,17 @@
 #   end
 # end
 
-# helpers do
-#   def friendly_url(faq)
-#     faq["t"].gsub(/[\s\?]/, " " => "_", "?" => "")
-#   end
-# end
-
-# set :haml, { :ugly => true, :format => :html5 }
-# data.faq.questions.each do |faq|
-#   page "/lichtvis/#{friendly_url(faq)}.html", :proxy => "faq_template.html", :layout => "knowledge_base", :ignore => true do
-#     @faq = faq
-#   end
-#   page "/javascripts/#{faq}.json"
-# end
-
-# portfolio = sitemap.where(:tag.include => "portfolio")
 ready do
   portfolio_items = sitemap.where(:tag.include => "portfolio").all
 
-  page "portfolio.html", :proxy => "/portfolio_template.html", :ignore => true do
+  page "portfolio/index.html", :proxy => "/portfolio_template.html", :ignore => true do
     @portfolio_items = portfolio_items
   end
 
   portfolio_items.each do |portfolio_item|
     page "#{portfolio_item.url}index.html", :proxy => "/portfolio_item_template.html", :ignore => true do
       @portfolio_item = portfolio_item
-      portfolio_items.delete(portfolio_item)
+      # portfolio_items.delete(portfolio_item)
       @other_projects = portfolio_items.sample(3)
     end
   end
