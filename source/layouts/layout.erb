@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <%= partial "/layouts/head" %>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='author'>
+    <!-- Bootstrap core CSS -->
+    <link href='/stylesheets/bootstrap.css' rel='stylesheet'>
+    <!-- Custom CSS for the 'Business Frontpage' Template -->
+    <link href='/stylesheets/business-frontpage.css' rel='stylesheet'>
     <title><%= current_page.data.title %></title>
   </head>
   <body>
@@ -19,10 +26,13 @@
         <div class='collapse navbar-collapse navbar-ex1-collapse'>
           <ul class="nav navbar-nav">
             <li>
-              <a class='navbar-brand' href='/'>Home</a>
+              <a class='navbar-brand' href='/'>home</a>
             </li>
             <li>
-              <a href="/contact">Contact </a>
+              <a href="/portfolio">portfolio </a>
+            </li>
+            <li>
+              <a href="/contact">contact </a>
             </li>
           </ul>
         </div>
@@ -30,28 +40,30 @@
       </div>
       <!-- /.container -->
     </nav>
+        <% if current_page.data.title %>
     <div class='business-header'>
       <div class='container'>
-        <div class='row'>
-          <div class='col-lg-12'>
-            <!-- The background image is set in the custom CSS -->
-            <p>- WIJ ZIJN BY2.BE BVBA -</p>
-            <h1 class='tagline'>
-              <%= current_page.data.title %>
-            </h1>
-            <p>
-              <%= current_page.data.subtitle %>
-            </p>
-            
-            <p>
-            <a class='btn btn-default btn-large' href='<%= current_page.data.call_to_action_link %>'>
-                <%= current_page.data.call_to_action %> &raquo;
-              </a>
-            </p>
+          <div class='row'>
+            <div class='col-lg-12'>
+              <!-- The background image is set in the custom CSS -->
+              <p>- WIJ ZIJN BY2.BE BVBA -</p>
+              <h1 class='tagline'>
+                <%= current_page.data.title %>
+              </h1>
+              <p>
+                <%= current_page.data.subtitle %>
+              </p>
+              
+              <p>
+              <a class='btn btn-default btn-large' href='<%= current_page.data.call_to_action_link %>'>
+                  <%= current_page.data.call_to_action %> &raquo;
+                </a>
+              </p>
+            </div>
           </div>
-        </div>
       </div>
     </div>
+        <% end %>
     <div class='container'>
       <hr>
       <%= yield %>
@@ -64,6 +76,22 @@
         </div>
       </footer>
     </div>
-    <%= partial "/layouts/javascript.erb" %>
+    <!-- /container -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Don't forget to add jQuery - download the most recent version at http://jquery.com/ -->
+    <script src='/js/jquery.js'></script>
+    <script src='/js/bootstrap.js'></script>
+    <script src='/js/application.js'></script>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-2114155-1");
+        pageTracker._trackPageview();
+        } catch(err) {}
+    </script>
   </body>
 </html>

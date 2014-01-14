@@ -59,9 +59,23 @@
 #   page "/javascripts/#{faq}.json"
 # end
 
-portfolio_items = sitemap.where(:tag => "portfolio")
+# portfolio = sitemap.where(:tag.include => "portfolio")
+ready do
+  portfolio_items = sitemap.where(:tag.include => "portfolio").all
 
-proxy "portfolio.html", "/portfolio_template.html", :locals => {:bla => "bla", :items => portfolio_items}
+  page "portfolio.html", :proxy => "/portfolio_template.html", :ignore => true do
+    @portfolio_items = portfolio_items
+  end
+
+  portfolio_items.each do |portfolio_item|
+    page "#{portfolio_item.url}index.html", :proxy => "/portfolio_item_template.html", :ignore => true do
+      @portfolio_item = portfolio_item
+      portfolio_items.delete(portfolio_item)
+      @other_projects = portfolio_items.sample(3)
+    end
+  end
+end
+
 
 class HtmlFiles < Middleman::Extension
   def initialize(app, options_hash={}, &block)
