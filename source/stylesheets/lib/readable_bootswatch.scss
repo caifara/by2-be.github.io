@@ -7,33 +7,33 @@
 // Navbar =====================================================================
 
 .navbar {
-  font-family: @headings-font-family;
+  font-family: $headings-font-family;
 
-  &-nav > li > a {
-    padding: @padding-base-vertical @padding-base-horizontal;
+  .navbar-nav > li > a {
+    padding: $padding-base-vertical $padding-base-horizontal;
     margin: 12px 6px;
     border: 1px solid transparent;
-    border-radius: @border-radius-base;
+    border-radius: $border-radius-base;
 
     &:hover {
       border: 1px solid #ddd;
     }
   }
 
-  &-nav > .active > a,
-  &-nav > .active > a:hover {
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover {
     border: 1px solid #ddd;
   }
 
-  &-default .navbar-nav > .active > a:hover {
-    color: @navbar-default-link-hover-color;
+  .navbar-default .navbar-nav > .active > a:hover {
+    color: $navbar-default-link-hover-color;
   }
 
-  &-inverse .navbar-nav > .active > a:hover {
-    color: @navbar-inverse-link-hover-color;
+  .navbar-inverse .navbar-nav > .active > a:hover {
+    color: $navbar-inverse-link-hover-color;
   }
 
-  &-brand {
+  .navbar-brand {
     margin-top: 6px;
   }
 }
@@ -41,7 +41,7 @@
 // Buttons ====================================================================
 
 .btn {
-  font-family: @headings-font-family;
+  font-family: $headings-font-family;
 }
 
 // Typography =================================================================
@@ -51,11 +51,11 @@
 // Forms ======================================================================
 
 legend {
-  font-family: @headings-font-family;
+  font-family: $headings-font-family;
 }
 
 .input-group-addon {
-  font-family: @font-family-sans-serif;
+  font-family: $font-family-sans-serif;
 }
 
 // Navs =======================================================================
@@ -70,20 +70,20 @@ legend {
 
 .pagination {
 
-  font-family: @headings-font-family;
+  font-family: $headings-font-family;
 
-  &-lg > li > a,
-  &-lg > li > span {
+  .pagination-lg > li > a,
+  .pagination-lg > li > span {
     padding: 14px 24px;
   }
 }
 
 .pager {
 
-  font-family: @headings-font-family;
+  font-family: $headings-font-family;
 
   a {
-    color: @text-color;
+    color: $text-color;
   }
 
   a:hover {
@@ -92,7 +92,7 @@ legend {
   }
 
   .disabled a {
-    border-color: @pager-border;
+    border-color: $pager-border;
   }
 }
 
@@ -101,24 +101,24 @@ legend {
 .alert {
   a,
   .alert-link {
-    color: @alert-success-text;
+    color: $alert-success-text;
     text-decoration: underline;
   }
 }
 
 .label {
-  font-family: @headings-font-family;
+  font-family: $headings-font-family;
   font-weight: normal;
 
-  &-default {
+  .label-default {
     border: 1px solid #ddd;
-    color: @text-color;
+    color: $text-color;
   }
 
 }
 
 .badge {
-  font-family: @headings-font-family;
+  font-family: $headings-font-family;
   font-weight: normal;
 }
 
@@ -128,20 +128,20 @@ legend {
 
 .panel {
 
-  .box-shadow(none);
+  @include box-shadow(none);
 
-  &-default .panel-heading,
-  &-default .panel-footer {
+  .panel-default .panel-heading,
+  .panel-default .panel-footer {
     background-color: #fff;
-    font-family: @headings-font-family;
+    font-family: $headings-font-family;
     font-weight: bold;
   }
 
-  &-primary,
-  &-success,
-  &-warning,
-  &-danger,
-  &-info {
+  .panel-primary,
+  .panel-success,
+  .panel-warning,
+  .panel-danger,
+  .panel-info {
     .panel-heading {
       color: #fff;
     }
@@ -149,7 +149,7 @@ legend {
     .panel-body {
       border: 1px solid #ddd;
       border-top-width: 0;
-      border-radius: 0 0 @border-radius-base @border-radius-base;
+      border-radius: 0 0 $border-radius-base $border-radius-base;
     }
   }
 }
