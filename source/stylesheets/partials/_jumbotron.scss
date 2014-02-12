@@ -1,0 +1,33 @@
+
+$jumbotron-padding:              30px !default;
+// $jumbotron-color:                inherit !default;
+$jumbotron-color:                lighten($brand-primary, 80%);
+// $jumbotron-bg:                   darken($body-bg, 3%) !default;
+$jumbotron-bg:                   $brand-primary;
+$jumbotron-heading-color:        inherit !default;
+$jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
+
+
+.jumbotron {
+  a {
+    color: $jumbotron-color;
+    background-color: $jumbotron-bg;
+
+    &:hover {
+      background-color: $jumbotron-color;
+      color: $jumbotron-bg;
+    }
+  }
+
+  .tagline {
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    h1.tagline,
+    .h1.tagline {
+      font-size: ($font-size-base * 3.5);
+    }
+  }
+}

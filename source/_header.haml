@@ -1,28 +1,27 @@
 - if current_page.path == "index.html" 
-  .business-header
+  -# .page-header
+  .jumbotron
     .container
-      .row
-        .col-lg-12 
-          %p - WIJ ZIJN BY2.BE -
-          %h1.tagline= current_page.data.title
-          %p= current_page.data.subtitle
-          %p
-            %a{href: current_page.data.call_to_action_link, class: "btn btn-default btn-large"}
-              =current_page.data.call_to_action
-              &raquo;
-            %a{href: "/portfolio", class: "btn btn-transparent btn-large"}
-              bekijk ons werk &raquo;
+      %h4.normal - WIJ ZIJN BY2.BE -
+      %h1.tagline= current_page.data.title
+      %p.text-muted= current_page.data.subtitle
+      %p
+        %a{href: current_page.data.call_to_action_link, class: "btn btn-default btn-large"}
+          =current_page.data.call_to_action
+          &raquo;
+        -# %a{href: "/portfolio", class: "btn btn-transparent btn-large"}
+        -#   bekijk ons werk &raquo;
 - else
-  .default-page-header
+  .jumbotron
     .container
       .row
         .col-lg-12
           - if yield_content(:title)
             %h1.tagline= yield_content(:title)
-            %p= yield_content(:subtitle)
+            %p.text-muted= yield_content(:subtitle)
           - else
             %h1.tagline= current_page.data[:title]
-            %p= current_page.data[:subtitle]
+            %p.text-muted= current_page.data[:subtitle]
 
 
 .header-border
