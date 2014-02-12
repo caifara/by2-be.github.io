@@ -36,7 +36,7 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -50,8 +50,8 @@ ready do
 
   page "portfolio/index.html", :proxy => "/portfolio_template.html", :ignore => true do 
     @portfolio_items = portfolio_items
-      content_for(:title, "Onze portfolio, ons werk")
-      content_for(:subtitle, "Naast een aantal eigen projecten ontwikkelen we digitale oplossingen op vraag. Onze realisaties zijn gefocust op eenvoud voor de gebruiker.")
+      content_for(:title, "Wat we doen, portfolio")
+      content_for(:subtitle, "Passioneel werken we webapplicaties uit met sterke focus op het <strong>proces</strong>, <strong>eenvoud</strong> en <strong>effectiviteit</strong>.")
   end
 
   portfolio_items.each do |portfolio_item|

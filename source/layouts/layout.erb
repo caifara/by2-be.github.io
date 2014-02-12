@@ -5,55 +5,20 @@
     <meta content='width=device-width, initial-scale=1.0' name='viewport'>
     <meta content='' name='description'>
     <meta content='' name='author'>
-    <!-- Bootstrap core CSS -->
-    <link href='/stylesheets/bootstrap.css' rel='stylesheet'>
-    <!-- Custom CSS for the 'Business Frontpage' Template -->
-    <link href='/stylesheets/business-frontpage.css' rel='stylesheet'>
+    <link href='/stylesheets/all.css' rel='stylesheet'>
     <title><%= current_page.data.title %></title>
   </head>
   <body>
-    <nav class='navbar navbar-fixed-top navbar-default' role='navigation'>
-      <div class='container'>
-        <div class='navbar-header'>
-          <button class='navbar-toggle' data-target='.navbar-ex1-collapse' data-toggle='collapse' type='button'>
-            <span class='sr-only'>Toggle navigation</span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-          </button>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class='collapse navbar-collapse navbar-ex1-collapse'>
-          <ul class="nav navbar-nav">
-            <li>
-              <a href='/'>Home</a>
-            </li>
-            <li>
-              <a href="/portfolio">Portfolio </a>
-            </li>
-            <li>
-              <a href="/contact">Contact </a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container -->
-    </nav>
+    <%= partial "navbar" %>
+
     <%= partial "header" %>
+
     <div class='container'>
-      <hr>
       <%= yield %>
-      <hr>
-      <footer>
-        <div class='row'>
-          <div class='col-lg-12'>
-            <p>by2.be bvba &middot; Generaal Lemanlaan 77 &middot; 8310 Brugge &middot; 050 969 962</p>
-            <p>BE-0890.991.025 &middot; RPR Brugge &middot; Dexia: 068-2479949-74</p>
-          </div>
-        </div>
-      </footer>
     </div>
+
+    <%= partial "footer" %>
+
     <!-- /container -->
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
