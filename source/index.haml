@@ -56,11 +56,13 @@
         %em
           Heeft u een idee? Of is uw vraag heel concreet? Laat het ons weten. We zijn één en al oor!
 
-.container.customers_container
+.container.customers_container{style: "margin: 10px Opx "}
+  %hr
   - Dir["./source/images/customers/*.png"].each_slice(4) do |image_paths|
     .row.text-center
       - image_paths.each do |image_path|
         - image_path = Pathname.new(image_path).relative_path_from(Pathname.new("./source"))
-        .col-xs-3{style: "height: 80px"}
+        .col-sm-3{style: "height: 80px"}
           %span.image-helper
           %img{src: image_path, style: "vertical-align: middle"}
+  %hr
