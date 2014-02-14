@@ -3,29 +3,44 @@ title: Aan de slag met uw project
 subtitle: 
   Elk van onze projecten slaagt door de persoonlijke hands-on aanpak. We bouwen
   samen met u.
+steps:
+- image: compass
+  title: 1. we luisteren
+  text: 
+    We laten u ons alles vertellen over uw project, uw deadlines en uw budget. Wij willen ons vooral onderdompelen in uw leefwereld en alle facetten van het probleem leren kennen. We luisteren, noteren en we stellen moeilijke vragen tot we perfect begrijpen hoe alles in elkaar steekt. Zo komen we te weten of we de juiste partij zijn voor u.
+    Ook u kunt vragen stellen. Wat is onze uurprijs, wanneer kunnen we beginnen, hoe werken we samen, hoe houden we u op de hoogte en wat je nog meer wil weten.
+- image: tools
+  title: 2. we plannen
+  text: 
+    Nu we voldoende informatie hebben kunnen wij aan de slag. We tekenen uit hoe we tewerk kunnen gaan en maken een inschatting van de nodige tijd. Indien gewenst maken we een offerte op.
+    We leggen ons plan aan u uit waardoor u zicht krijgt op de oplossing die we voorstellen. We geven opties en advies zodat u de meest interessante keuze kunt maken voor uw project.
+- image: tools
+  title: 3. we bouwen
+  text: Na een akkoord starten we met het bouwen. Het eindproduct ontstaat uit het proces van opeenvolgend ontwikkelen en terugkoppelen. We hebben wekelijks een overlegmoment. Hierdoor krijgen wij de mogelijkheid te tonen wat we bouwden en krijgt u de mogelijkheid de nieuwste versie te testen. Het is ook het uitgelezen moment om prioriteiten te herschikken en de volgende sprint te overlopen.
+- image: tools
+  title: 4. we lanceren
+  text: 
+    Iedere week geven we u de meest recente versie, maar dit is toch een specialer moment. Het moment waar we allebei op wachten, het moment dat een feestje op zijn plaats is, het moment dat het project officieel gelanceerd wordt.
+    Samen met u overlopen we hoe het project gelanceerd wordt en we vertellen u perfect wat u kunt verwachten en waarvoor u klaar moet zijn.
+- image: tools
+  title: 5. we volgen op
+  text: Na de lancering blijven we de applicatie monitoren en zorgen we dat die online blijft. Met uw vragen kunt u steeds bij ons terecht.
 ---
 
-.row
-  .col-sm-3.push-down
-    %img.img-circle.img-responsive.center-block{:src => "/images/compass.png"}/
-  .col-sm-5
-    %h2 1. we luisteren
-    %p door ons onder te dompelen in uw leefwereld leren we alle facetten van het probleem echt kennen, totdat we een concrete oplossing vinden die tegelijkertijd eenvoudig, efficiënt en snel is.
 
-.row
-  .col-sm-5.col-sm-offset-4.text-right
-    %h2 2. we bouwen
-    %p dankzij onze jarenlange ervaring in het uitbouwen van geavanceerde weboplossingen staan we voor elke uitdaging klaar. onze weboplossing is het eindproduct van een proces van opeenvolgend ontwikkelen en terugkoppelen.
-  .col-sm-3.push-down
-    %img.img-circle.img-responsive.center-block{:src => "/images/tools.png"}/
+- current_page.data.steps.each_slice(2) do |first, second|
 
-.row
-  .col-sm-3.push-down
-    %img.img-circle.img-responsive.center-block{:src => "/images/volume.png"}/
-  .col-sm-5
-    %h2 3. we volgen op
-    %p 
-      het bouwen van de oplossing is niet de laatste stap. we helpen u 
-      het product effectief gebruiken met tips en advies.
-      %br
-      Daarnaast zorgen we dat het product steeds perfect draait.
+  .row
+    .col-sm-3.push-down
+      %img.img-circle.img-responsive.center-block{:src => "/images/#{first.image}.png"}/
+    .col-sm-5
+      %h2= first.title
+      %p= first.text
+
+  - if second
+    .row
+      .col-sm-3.col-sm-offset-4.push-down
+        %img.img-circle.img-responsive.center-block{:src => "/images/#{second.image}.png"}/
+      .col-sm-5
+        %h2= second.title
+        %p= second.text
