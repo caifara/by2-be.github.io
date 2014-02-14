@@ -1,13 +1,14 @@
-      
-<% @portfolio_items.each_slice(3).to_a.each do |portfolio_group|%>
-  <div class="row">
-    <% portfolio_group.each do |portfolio_item|%>
-      <div class="col-md-4 portfolio-item portfolio-index">
-        <a href="<%=portfolio_item.url%>"><%= image_tag(portfolio_item.data[:image], :class => "img-responsive")%></a>
-        <h3><a href=<%= portfolio_item.url %>><%= portfolio_item.data[:project_name]%></a></h3>
-        <p><%= portfolio_item.data[:teaser] %></p>
-        <p><a href="<%=portfolio_item.url %>">lees meer ...</a></p>
-      </div>
-    <% end %>
-  </div>
-<% end %>
+<div class="container">
+  <% @portfolio_items.each_slice(3).to_a.each do |portfolio_group|%>
+    <div class="row">
+      <% portfolio_group.each do |portfolio_item|%>
+        <div class="col-md-4 portfolio-item portfolio-index">
+          <a href="<%=portfolio_item.url%>"><%= image_tag(portfolio_item.data[:image], :class => "img-responsive")%></a>
+          <h3><a href=<%= portfolio_item.url %>><%= portfolio_item.data[:project_name]%></a></h3>
+          <p><%= portfolio_item.data[:teaser] %></p>
+          <p><a href="<%=portfolio_item.url %>">lees meer ...</a></p>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>

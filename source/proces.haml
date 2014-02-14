@@ -27,26 +27,26 @@ steps:
   text: Na de lancering blijven we de applicatie monitoren en zorgen we dat die online blijft. Met uw vragen kunt u steeds bij ons terecht.
 ---
 
+.container
+  - current_page.data.steps.each_slice(2) do |first, second|
 
-- current_page.data.steps.each_slice(2) do |first, second|
-
-  .row
-    .col-sm-3.push-down
-      %img.img-circle.img-responsive.center-block{:src => "/images/#{first.image}.png"}/
-    .col-sm-5
-      %h2= first.title
-      %p= first.text
-
-  - if second
     .row
-      .col-sm-3.col-sm-offset-4.push-down
-        %img.img-circle.img-responsive.center-block{:src => "/images/#{second.image}.png"}/
+      .col-sm-3.push-down
+        %img.img-circle.img-responsive.center-block{:src => "/images/#{first.image}.png"}/
       .col-sm-5
-        %h2= second.title
-        %p= second.text
+        %h2= first.title
+        %p= first.text
 
-.row{style: "margin-top: 50px"}
-  .text-center
-    %h1
-      %small Een teken van u en de bal begint te rollen!
-    %button.btn.btn-lg.btn-success Contacteer ons
+    - if second
+      .row
+        .col-sm-3.col-sm-offset-4.push-down
+          %img.img-circle.img-responsive.center-block{:src => "/images/#{second.image}.png"}/
+        .col-sm-5
+          %h2= second.title
+          %p= second.text
+
+  .row{style: "margin-top: 50px"}
+    .text-center
+      %h1
+        %small Een teken van u en de bal begint te rollen!
+      %button.btn.btn-lg.btn-success Contacteer ons
