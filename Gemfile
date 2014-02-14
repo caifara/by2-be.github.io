@@ -14,6 +14,10 @@ gem "puma"
 # css
 gem "bootstrap-sass"
 
+# image handling
+gem "chunky_png"
+gem "oily_png"
+
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 

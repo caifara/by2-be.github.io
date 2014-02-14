@@ -12,43 +12,55 @@
   call_to_action_link: /portfolio
 ---
 
-.row.text-center.home-col
-  .col-sm-4
-    %img.img-circle.img-responsive.center-block{:src => "/images/tablet.png"}/
-    %h2 Mobiel
-    %p Is uw oplossing interessantst als die mobiel wordt aangeboden, geen probleem. Twijfelt u nog tussen web en mobiel? Samen met u maken we de beste keuze. Misschien bouwen we best een mobiele webapplicatie.
-  .col-sm-4
-    %img.img-circle.img-responsive.center-block{:src => "/images/computer.png"}/
-    %h2 Webapp
-    %p Een idee uitwerken, een verouderde desktop applicatie, automatisatie of workflow begeleiding. We deden het al allemaal en bouwen samen met u de oplossing.
-  .col-sm-4
-    %img.img-circle.img-responsive.center-block{:src => "/images/browser.png"}/
-    %h2 Website
-    %p 
-      U heeft een functionele website nodig, maar ook een ledenbeheersysteem, een boekingssysteem of bijvoorbeeld een communicatiesysteem op maat. U wil daarbij integratie met de website? Geen probleem, we deden het al tal van keren.
+.container
+  .row.text-center.home-col
+    .col-sm-4
+      %img.img-circle.img-responsive.center-block{:src => "/images/tablet.png"}/
+      %h2 Mobiel
+      %p Is uw oplossing interessantst als die mobiel wordt aangeboden, geen probleem. Twijfelt u nog tussen web en mobiel? Samen met u maken we de beste keuze. Misschien bouwen we best een mobiele webapplicatie.
+    .col-sm-4
+      %img.img-circle.img-responsive.center-block{:src => "/images/computer.png"}/
+      %h2 Webapp
+      %p Een idee uitwerken, een verouderde desktop applicatie, automatisatie of workflow begeleiding. We deden het al allemaal en bouwen samen met u de oplossing.
+    .col-sm-4
+      %img.img-circle.img-responsive.center-block{:src => "/images/browser.png"}/
+      %h2 Website
+      %p 
+        U heeft een functionele website nodig, maar ook een ledenbeheersysteem, een boekingssysteem of bijvoorbeeld een communicatiesysteem op maat. U wil daarbij integratie met de website? Geen probleem, we deden het al tal van keren.
 
-.row
-  .col-lg-8.col-sm-8
-    %h2 Onze sterkte, uw succes
-    %p Onze rol bestaat erin uw vraag goed te leren kennen, de juiste technologie te kiezen en u te begeleiden tijdens en na de ontwikkeling.
-    %p Van zodra de vraag goed is in kaart gebracht, formuleren we een mogelijke weboplossing. Daarbij krijgt u zicht op de prijs en de berekening ervan. Zo is er ook ruimte om zelf bij te sturen - wat voor jou belangrijk en financieel haalbaar is. Tijdens de ontwikkeling bent u dus actief betrokken. U kunt de evolutie volgen en bijsturen.
-    %p We denken graag inhoudelijk met u mee en geven advies over elke stap zodat de digitale toepassing een succes wordt.
-    
-  .col-lg-4.col-sm-4
-    .well
-      %h2 Contacteer ons
-      %address
-        %strong by2.be bvba
-        %br/
-        Rubenslaan 25
-        %br/
-        8310 Brugge
-        %br/
-      %address
-        %abbr{:title => "Phone"} T:
-        050 969 962
-        %br/
-        %abbr{:title => "Email"} E:
-        %a{:href => "mailto:#"} team@by2.be
-      %em
-        Heeft u een idee? Of is uw vraag heel concreet? Laat het ons weten. We zijn één en al oor!
+
+.container
+  .row
+    .col-lg-8.col-sm-8
+      %h2 Onze sterkte, uw succes
+      %p Onze rol bestaat erin uw vraag goed te leren kennen, de juiste technologie te kiezen en u te begeleiden tijdens en na de ontwikkeling.
+      %p Van zodra de vraag goed is in kaart gebracht, formuleren we een mogelijke weboplossing. Daarbij krijgt u zicht op de prijs en de berekening ervan. Zo is er ook ruimte om zelf bij te sturen - wat voor jou belangrijk en financieel haalbaar is. Tijdens de ontwikkeling bent u dus actief betrokken. U kunt de evolutie volgen en bijsturen.
+      %p We denken graag inhoudelijk met u mee en geven advies over elke stap zodat de digitale toepassing een succes wordt.
+      
+    .col-lg-4.col-sm-4
+      .well
+        %h2 Contacteer ons
+        %address
+          %strong by2.be bvba
+          %br/
+          Rubenslaan 25
+          %br/
+          8310 Brugge
+          %br/
+        %address
+          %abbr{:title => "Phone"} T:
+          050 969 962
+          %br/
+          %abbr{:title => "Email"} E:
+          %a{:href => "mailto:#"} team@by2.be
+        %em
+          Heeft u een idee? Of is uw vraag heel concreet? Laat het ons weten. We zijn één en al oor!
+
+.container.customers_container
+  - Dir["./source/images/customers/*.png"].each_slice(4) do |image_paths|
+    .row.text-center
+      - image_paths.each do |image_path|
+        - image_path = Pathname.new(image_path).relative_path_from(Pathname.new("./source"))
+        .col-xs-3{style: "height: 80px"}
+          %span.image-helper
+          %img{src: image_path, style: "vertical-align: middle"}
