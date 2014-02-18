@@ -1,0 +1,31 @@
+/* .video-section .pattern-overlay {*/
+/*   background-color: rgba(71, 71, 71, 0.59);*/
+/*   background-image: url("/images/bg.png");*/
+/*   padding: 110px 0 32px;*/
+/*   min-height: 560px; */
+/*   [> Incase of overlay problems just increase the min-height<]*/
+/* }*/
+.video-section .buttonBar{
+  display:none;
+}
+.player {font-size: 1px;}
+
+
+
+/* .video-section {*/
+/*   background-color: rgba(71, 71, 71, 0.59);*/
+/*   background-image: url("/images/bg.png");*/
+/* }*/
+
+.video-section{
+  height: 300px;
+  position: relative;
+  margin: 0px;
+  padding:0px;
+}
+
+.overlay{
+  background-color: rgba(71, 71, 71, 0.59);
+  background: url("/images/bg.png");
+  height: 300px;
+}
