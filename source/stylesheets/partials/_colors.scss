@@ -32,9 +32,9 @@ $abbr-border-color:           $gray-light !default;
 //** Headings small color
 $headings-small-color:        $gray-light !default;
 //** Blockquote small color
-$blockquote-small-color:      $text-color !default;
+$blockquote-small-color:      $gray-light!default;
 //** Blockquote border color
-$blockquote-border-color:     $brand-primary !default;
+$blockquote-border-color:     $gray-light !default;
 //** Page header border color
 $page-header-border-color:    $gray-lighter !default;
 //** Link hover color set via `darken()` function.
