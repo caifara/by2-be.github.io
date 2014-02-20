@@ -1,7 +1,7 @@
 - if current_page.path == "index.html" 
   .jumbotron.content-section.video-section
     .overlay
-      %a#bgndVideo.player{"data-property" => "{videoURL:'http://www.youtube.com/watch?v=B3GribQCg6c',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}"} bg
+      %a#bgndVideo.player{"data-property" => "{videoURL:'http://www.youtube.com/watch?v=B3GribQCg6c',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1, loop:false}"} bg
       .container
         %h4.normal - WIJ ZIJN BY2.BE -
         %h1.tagline= current_page.data.title
