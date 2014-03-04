@@ -1,5 +1,5 @@
-.row.visible-xs.visible-sm
-  .jumbotron.content-section
+.visible-xs.visible-sm
+  .jumbotron.content-section.video-section
     .dotted-mask
       %h4.normal - Wij zijn by2.be -
       %h1.tagline Contacteer ons
@@ -12,33 +12,30 @@
         %br
         team@by2.be
 
-.row.visible-lg.visible-md
+.visible-lg.visible-md
   - if current_page.path == "index.html" 
-    .jumbotron.content-section.video-section
-      .dotted-mask
-        %a#bgndVideo.player{"data-property" => "{videoURL:'http://youtu.be/rC-X1a7K7DM',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1, loop:false, startAt:6}"} bg
-        .container
-          %h4.normal - Wij zijn by2.be -
-          %h1.tagline= current_page.data.title
-          %p.hidden-xs.text-muted= current_page.data.subtitle
-          %p
-            %a{href: current_page.data.call_to_action_link, class: "btn btn-default btn-large"}
-              =current_page.data.call_to_action
-              &raquo;
+    .jumbotron.content-section.video-section.dotted_mask
+      %a#bgndVideo.player{"data-property" => "{videoURL:'http://youtu.be/rC-X1a7K7DM',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1, loop:false, startAt:6}"} bg
+      .container
+        %h4.normal - Wij zijn by2.be -
+        %h1.tagline= current_page.data.title
+        %p.hidden-xs.text-muted= current_page.data.subtitle
+        %p
+          %a{href: current_page.data.call_to_action_link, class: "btn btn-default btn-large"}
+            =current_page.data.call_to_action
+            &raquo;
   - else
     .jumbotron.content-section.video-section
-      .dotted-mask
-        - if current_page.data[:video]
-          %a#bgndVideo.player{"data-property" => "{videoURL:'#{current_page.data[:video]}',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}"} bg
-        .container
-          .row
-            .col-lg-12
-              - if yield_content(:title)
-                %h1.tagline= yield_content(:title)
-                %p.text-muted= yield_content(:subtitle)
-              - else
-                %h1.tagline= current_page.data[:title]
-                %p.text-muted= current_page.data[:subtitle]
+      - if current_page.data[:video]
+        %a#bgndVideo.player{"data-property" => "{videoURL:'#{current_page.data[:video]}',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}"} bg
+      .container
+        .col-lg-12
+          - if yield_content(:title)
+            %h1.tagline= yield_content(:title)
+            %p.text-muted= yield_content(:subtitle)
+          - else
+            %h1.tagline= current_page.data[:title]
+            %p.text-muted= current_page.data[:subtitle]
 
 
 .header-border

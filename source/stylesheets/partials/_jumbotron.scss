@@ -1,6 +1,6 @@
 
 // $jumbotron-padding:            30px !default;
-$jumbotron-padding:              0px !default;
+$jumbotron-padding:              30px !default;
 // $jumbotron-color:                inherit !default;
 $jumbotron-color:                lighten($brand-primary, 80%);
 // $jumbotron-bg:                   darken($body-bg, 3%) !default;
@@ -10,6 +10,9 @@ $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 
 
 .jumbotron {
+  background-color: rgba(71, 71, 71, 0.59);
+  background: url("/images/bg.png");
+
   a {
     color: $jumbotron-color;
     background-color: $jumbotron-bg;
