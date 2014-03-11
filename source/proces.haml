@@ -26,8 +26,29 @@ steps:
   title: 5 - we volgen op
   text: Na de lancering blijven we de applicatie monitoren en zorgen we dat die online blijft. Met uw vragen kunt u steeds bij ons terecht.
 ---
+.container
+  .col-sm-offset-1.col-sm-10
+    .panel.panel-default
+      .panel-body
+        .col-sm-12
+          %h3
+            Laat je e-mail achter en download onze startserskit om je webproject in kaart te brengen
+          %p Download beschikbaar in pdf en epub
+
+        -# gemaakt door http://by2.us2.list-manage.com/subscribe?u=70b7ae799485315f0a18eaece&id=3cd9a655d7 te kopieren
+        %form.form-horizontal{role: "form", action: "http://by2.us2.list-manage.com/subscribe/post", method: "post"}
+          %input{type: "hidden", name: "u", value:"70b7ae799485315f0a18eaece"}
+          %input{type: "hidden", name: "id", value:"3cd9a655d7"}
+          %div{style: "display: none"}
+            %input{type: "text", name: "b_70b7ae799485315f0a18eaece_3cd9a655d7", value:""}
+          %form-group
+            .col-sm-9
+              %input.form-control{type: "text", placeholder: "e-mailadres", id: "MERGE0", name:"MERGE0"} 
+            .col-sm-3
+              %button.btn.btn-primary{style: "width: 100%"} Start vandaag!
 
 .container
+
   - current_page.data.steps.each_slice(2) do |first, second|
 
     .row
