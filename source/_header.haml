@@ -25,7 +25,7 @@
             &raquo;
 - else
   .visible-lg.visible-md
-    .jumbotron.content-section.video-section{"style" => "height: 300px"}
+    .jumbotron.content-section.video-section
       - if current_page.data[:video]
         %a#bgndVideo.player{"data-property" => "{videoURL:'#{current_page.data[:video]}',startAt:#{current_page.data[:video_start_at]||0}, optimizeDisplay: true, containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}"} bg
       .container
