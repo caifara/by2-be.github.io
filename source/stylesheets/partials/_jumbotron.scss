@@ -15,10 +15,10 @@ $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 
   a {
     color: $jumbotron-color;
-    background-color: $jumbotron-bg;
+    background-color: rgba($jumbotron-bg, 0.6);
 
     &:hover {
-      background-color: $jumbotron-color;
+    background-color: rgba($jumbotron-color, 0.6);
       color: $jumbotron-bg;
     }
   }
