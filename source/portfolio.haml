@@ -1,0 +1,37 @@
+---
+title: WAT WE DOEN, PORTFOLIO
+subtitle: Passioneel werken we webapplicaties uit met sterke focus op het proces, eenvoud en effectiviteit.
+---
+
+.container
+  .col-md-8
+    - data.portfolio.items.each do |item|
+      .col-md-8
+        %h1= item.title
+        %h4
+          %small
+            Project:
+            = item.project
+        %p= item.content
+        %p
+          - [[item.kinds_of_expertise, "label-primary"], [item.solutions, "label-info"], [item.technologies, "label-warning"]].each do |tags, label|
+            - tags.each do |tag|
+              %span.label{class: label}= tag
+      .col-md-4
+        %img.img-circle{src: "/images/portfolio/#{item.image}", style: "width: 200px; height: 200px"}
+
+  .col-md-offset-1.col-md-3
+    - kinds_of_expertise = data.portfolio.items.map{|item| item.kinds_of_expertise}.flatten.uniq
+    - solutions = data.portfolio.items.map{|item| item.solutions}.flatten.uniq
+    - technologies = data.portfolio.items.map{|item| item.technologies}.flatten.uniq
+    %h2 Referenties
+    %ul.nav.nav-pills
+      - kinds_of_expertise.each do |tag|
+        %li
+          %a{href:'#'}= tag
+      - solutions.each do |tag|
+        %li
+          %a{href:'#'}= tag
+      - technologies.each do |tag|
+        %li
+          %a{href:'#'}= tag

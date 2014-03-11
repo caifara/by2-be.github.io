@@ -45,25 +45,25 @@ activate :livereload
 #   end
 # end
 
-ready do
-  portfolio_items = sitemap.where(:tag.include => "portfolio").all
+# ready do
+#   portfolio_items = sitemap.where(:tag.include => "portfolio").all
 
-  page "portfolio/index.html", :proxy => "/portfolio_template.html", :ignore => true do 
-    @portfolio_items = portfolio_items
-      content_for(:title, "Wat we doen, portfolio")
-      content_for(:subtitle, "Passioneel werken we webapplicaties uit met sterke focus op het <strong>proces</strong>, <strong>eenvoud</strong> en <strong>effectiviteit</strong>.")
-  end
+#   page "portfolio/index.html", :proxy => "/portfolio_template.html", :ignore => true do 
+#     @portfolio_items = portfolio_items
+#       content_for(:title, "Wat we doen, portfolio")
+#       content_for(:subtitle, "Passioneel werken we webapplicaties uit met sterke focus op het <strong>proces</strong>, <strong>eenvoud</strong> en <strong>effectiviteit</strong>.")
+#   end
 
-  portfolio_items.each do |portfolio_item|
-    page "#{portfolio_item.url}index.html", :proxy => "/portfolio_item_template.html", :ignore => true do
-      @portfolio_item = portfolio_item
-      content_for(:title, @portfolio_item.data[:title])
-      content_for(:subtitle, @portfolio_item.data[:subtitle])
-      # portfolio_items.delete(portfolio_item)
-      @other_projects = portfolio_items.sample(3)
-    end
-  end
-end
+#   portfolio_items.each do |portfolio_item|
+#     page "#{portfolio_item.url}index.html", :proxy => "/portfolio_item_template.html", :ignore => true do
+#       @portfolio_item = portfolio_item
+#       content_for(:title, @portfolio_item.data[:title])
+#       content_for(:subtitle, @portfolio_item.data[:subtitle])
+#       # portfolio_items.delete(portfolio_item)
+#       @other_projects = portfolio_items.sample(3)
+#     end
+#   end
+# end
 
 
 class HtmlFiles < Middleman::Extension
