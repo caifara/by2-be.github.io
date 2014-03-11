@@ -128,30 +128,4 @@ legend {
 
 // Containers =================================================================
 
-.panel {
-
-  @include box-shadow(none);
-
-  .panel-default .panel-heading,
-  .panel-default .panel-footer {
-    background-color: #fff;
-    font-family: $headings-font-family;
-    font-weight: bold;
-  }
-
-  .panel-primary,
-  .panel-success,
-  .panel-warning,
-  .panel-danger,
-  .panel-info {
-    .panel-heading {
-      color: #fff;
-    }
-
-    .panel-body {
-      border: 1px solid #ddd;
-      border-top-width: 0;
-      border-radius: 0 0 $border-radius-base $border-radius-base;
-    }
-  }
-}
+@import "../partials/_containers";
