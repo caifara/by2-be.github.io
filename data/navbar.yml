@@ -1,0 +1,13 @@
+links:
+- name: Home
+  path: /
+  complete_path: index.html
+- name: Wat we doen
+  path: /portfolio
+  complete_path: portfolio/index.html
+- name: Hoe we werken
+  path: /proces
+  complete_path: proces/index.html
+- name: Contact
+  path: /contact
+  complete_path: contact/index.html
