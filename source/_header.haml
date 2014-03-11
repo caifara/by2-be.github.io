@@ -1,6 +1,6 @@
-.visible-xs.visible-sm
-  .jumbotron.content-section.video-section
-    .dotted-mask
+- if current_page.path == "index.html" 
+  .visible-xs.visible-sm
+    .jumbotron.content-section
       %h4.normal - Wij zijn by2.be -
       %h1.tagline Contacteer ons
       %adress
@@ -12,9 +12,8 @@
         %br
         team@by2.be
 
-.visible-lg.visible-md
-  - if current_page.path == "index.html" 
-    .jumbotron.content-section.video-section.dotted_mask
+  .visible-lg.visible-md
+    .jumbotron.content-section.video-section
       %a#bgndVideo.player{"data-property" => "{videoURL:'http://youtu.be/rC-X1a7K7DM',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1, loop:false, startAt:6}"} bg
       .container
         %h4.normal - Wij zijn by2.be -
@@ -24,10 +23,11 @@
           %a{href: current_page.data.call_to_action_link, class: "btn btn-default btn-large"}
             =current_page.data.call_to_action
             &raquo;
-  - else
-    .jumbotron.content-section.video-section
+- else
+  .visible-lg.visible-md
+    .jumbotron.content-section.video-section{"style" => "height: 300px"}
       - if current_page.data[:video]
-        %a#bgndVideo.player{"data-property" => "{videoURL:'#{current_page.data[:video]}',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}"} bg
+        %a#bgndVideo.player{"data-property" => "{videoURL:'#{current_page.data[:video]}',startAt:#{current_page.data[:video_start_at]||0}, optimizeDisplay: true, containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}"} bg
       .container
         .col-lg-12
           - if yield_content(:title)
@@ -36,6 +36,5 @@
           - else
             %h1.tagline= current_page.data[:title]
             %p.text-muted= current_page.data[:subtitle]
-
 
 .header-border
