@@ -4,34 +4,36 @@ subtitle: Passioneel werken we webapplicaties uit met sterke focus op het proces
 ---
 
 .container
-  .col-md-8
-    - data.portfolio.items.each do |item|
-      .col-md-8.coll-sm-push-8
-        %h2= item.title
-        %h4
-          %small
-            Project:
-            = item.project
-        %p= item.content
-        %p
-          - [[item.kinds_of_expertise, "label-primary"], [item.solutions, "label-info"], [item.technologies, "label-warning"]].each do |tags, label|
-            - tags.each do |tag|
-              %span.label{class: label}= tag
-      .col-md-4{style: "margin-top: 80px"}
-        %img.img-circle{src: "/images/portfolio/#{item.image}", style: "width: 240px; height: 240px"}
+  .row
+    .col-md-4.col-md-push-8
+      - kinds_of_expertise = data.portfolio.items.map{|item| item.kinds_of_expertise}.flatten.uniq
+      - solutions = data.portfolio.items.map{|item| item.solutions}.flatten.uniq
+      - technologies = data.portfolio.items.map{|item| item.technologies}.flatten.uniq
+      -# %h3 Referenties
+      %h3 Tags
+      %ul.nav.nav-pills
+        - kinds_of_expertise.each do |tag|
+          %li
+            %a{href:'#'}= tag
+        - solutions.each do |tag|
+          %li
+            %a{href:'#'}= tag
+        - technologies.each do |tag|
+          %li
+            %a{href:'#'}= tag
 
-  .col-md-offset-1.col-md-3.coll-sm-pull-8
-    - kinds_of_expertise = data.portfolio.items.map{|item| item.kinds_of_expertise}.flatten.uniq
-    - solutions = data.portfolio.items.map{|item| item.solutions}.flatten.uniq
-    - technologies = data.portfolio.items.map{|item| item.technologies}.flatten.uniq
-    -# %h3 Referenties
-    %ul.nav.nav-pills
-      - kinds_of_expertise.each do |tag|
-        %li
-          %a{href:'#'}= tag
-      - solutions.each do |tag|
-        %li
-          %a{href:'#'}= tag
-      - technologies.each do |tag|
-        %li
-          %a{href:'#'}= tag
+    .col-md-8.col-md-pull-4
+      - data.portfolio.items.each do |item|
+        .col-md-8
+          %h2= item.title
+          %h4
+            %small
+              Project:
+              = item.project
+          %p= item.content
+          %p
+            - [[item.kinds_of_expertise, "label-primary"], [item.solutions, "label-info"], [item.technologies, "label-warning"]].each do |tags, label|
+              - tags.each do |tag|
+                %span.label{class: label}= tag
+        .col-md-4{style: "margin-top: 80px"}
+          %img.img-circle{src: "/images/portfolio/#{item.image}", style: "width: 220px; height: 220px"}
