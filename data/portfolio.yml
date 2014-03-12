@@ -11,7 +11,7 @@ items:
   - javascript
   content: |
     Niets vervelender voor een osteopaat, kinesist, ... als een patiënt z'n afspraak vergeet. Aan andere kant leek het voor de patiënt wel een extra service om herinnerd te worden aan de afspraak. Daarom koppelden we een sms-systeem aan de agenda in Finaltouch. De dag voor de afspraak krijgt de patiënt een vriendelijk sms'je met een herinnering aan z'n afspraak.
-  image: rob_nieuwsbrieven.jpg
+  image: finaltouch_sms.jpg
 
 - title: Nieuwsbrieven vanuit je eigen database
   project: R.O.B. ledenadministratie
@@ -23,5 +23,5 @@ items:
   technologies:
   - ruby on rails
   content: |
-    Om digitale nieuwsbrieven te versturen zijn er vandaag tal van mooie webtoepassingen (vb. MailChimp). Toch is er 1 ding echt vervelend. Het telkenmale bijwerken van de contacten is bandwerk. Daarom ontwikkelden we voor de ROB (beroepsvereniging voor osteopaten) een systeempje om de leden in hun webapplicatie gesynchroniseerd te houden met de nieuwsbrieven. En dat is echt waardevol gebleken!
+    Om digitale nieuwsbrieven te versturen zijn er vandaag tal van mooie webtoepassingen (vb. MailChimp). Toch is er 1 ding echt vervelend. Het telkens opnieuw bijwerken van de contacten is bandwerk. Daarom ontwikkelden we voor de ROB (beroepsvereniging voor osteopaten) een systeempje om de leden in hun webapplicatie gesynchroniseerd te houden met de nieuwsbrieven. En dat is echt waardevol gebleken!
   image: rob_nieuwsbrieven.jpg
