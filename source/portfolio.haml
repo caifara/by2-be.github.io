@@ -1,6 +1,6 @@
 ---
 title: WAT WE DOEN, PORTFOLIO
-subtitle: Passioneel werken we webapplicaties uit met sterke focus op het proces, eenvoud en effectiviteit.
+subtitle: Passioneel werken we webapplicaties uit met sterke focus op het <strong>proces</strong>, <strong>eenvoud</strong> en <strong>effectiviteit</strong>.
 ---
 
 .container
@@ -10,17 +10,22 @@ subtitle: Passioneel werken we webapplicaties uit met sterke focus op het proces
       - solutions = data.portfolio.items.map{|item| item.solutions}.flatten.uniq
       - technologies = data.portfolio.items.map{|item| item.technologies}.flatten.uniq
       -# %h3 Referenties
-      %h3 Tags
-      %ul.nav.nav-pills
-        - kinds_of_expertise.each do |tag|
-          %li
-            %a{href:'#'}= tag
-        - solutions.each do |tag|
-          %li
-            %a{href:'#'}= tag
-        - technologies.each do |tag|
-          %li
-            %a{href:'#'}= tag
+      %h3 Alle tags
+      -# %ul.nav.nav-pills
+      -#   - kinds_of_expertise.each do |tag|
+      -#     %li
+      -#       %a{href:'#'}= tag
+      -#   - solutions.each do |tag|
+      -#     %li
+      -#       %a{href:'#'}= tag
+      -#   - technologies.each do |tag|
+      -#     %li
+      -#       %a{href:'#'}= tag
+      - [[kinds_of_expertise, "label-primary"], [solutions, "label-info"], [technologies, "label-warning"]].each do |tags, label|
+        %p
+          - tags.each do |tag|
+            %span.label{class: label}= tag
+        
 
     .col-md-8.col-md-pull-4
       - data.portfolio.items.each do |item|

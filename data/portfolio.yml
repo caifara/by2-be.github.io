@@ -25,3 +25,48 @@ items:
   content: |
     Om digitale nieuwsbrieven te versturen zijn er vandaag tal van mooie webtoepassingen (vb. MailChimp). Toch is er 1 ding echt vervelend. Het telkens opnieuw bijwerken van de contacten is bandwerk. Daarom ontwikkelden we voor de ROB (beroepsvereniging voor osteopaten) een systeempje om de leden in hun webapplicatie gesynchroniseerd te houden met de nieuwsbrieven. En dat is echt waardevol gebleken!
   image: rob_nieuwsbrieven.jpg
+
+- title: Responsive front-end
+  project: Van leren tot innovatie
+  kinds_of_expertise:
+  - Mobiel
+  - UX
+  solutions:
+  - responsive
+  technologies:
+  - ruby on rails
+  - ember.js
+  - bootstrap
+  - mongodb
+  content: |
+    Mobiel gebruik komt in deze applicatie op de eerste plaats. Nochtans moet de applicatie toch vlot bruikbaar zijn via een gewone browser. Responsive is de technologie die we inzetten om zo'n problemen op te lossen. Op die manier ontstaan geen extra kosten voor een app en moet slechts éénmaal ontwikkeld worden.
+  image: fl2i_responsive.jpg
+
+- title: Inloggen zonder naam of paswoord
+  project: Boekenfonds
+  kinds_of_expertise:
+  - UX
+  - beveiliging
+  solutions:
+  - beveiligde url
+  technologies:
+  - ruby on rails
+  - backbone.js
+  - postgres
+  content: |
+    We bouwden een oplossing waarbij met een beveiligde url leerlingen toch binnen een gepersonaliseerde en beveiligde omgeving terecht komen. Op die manier vermijden we rondslingerende of verloren paswoorden.
+  image: olvo_login.jpg
+
+- title: Conflictresolutie bij reservaties
+  project: Reservatie jeugdhemen
+  kinds_of_expertise:
+  - conflictresolutie
+  solutions:
+  - api
+  technologies:
+  - ruby on rails
+  - mongodb
+  - backbone.js
+  content: |
+    Tijdens het vastleggen van een verblijf in een of meerdere hemen wordt meteen getoond of deze hemen potentieel bezet zijn in die periode. Op dat moment wordt ook een link naar de betreffende andere reservaties op het scherm geplaatst. Hierdoor kan de administratie heel snel en accuraat verblijven vastleggen en mogelijke problemen oplossen voor ze ontstaan.
+  image: ksa_conflicten.jpg
